@@ -1,0 +1,1848 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d3" for="edge" attr.name="type" attr.type="string" />
+  <key id="d2" for="edge" attr.name="scheme" attr.type="string" />
+  <key id="d1" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="JCM">
+      <data key="d0">scheme</data>
+    </node>
+    <node id="Project Proponent">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Supporting Organization">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Ministry of the Environment of Japan">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Joint Committee (JC)">
+      <data key="d0">actor</data>
+    </node>
+    <node id="JCM Secretariat">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Verra">
+      <data key="d0">project</data>
+    </node>
+    <node id="Communities">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Project">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Stakeholders">
+      <data key="d0">project</data>
+    </node>
+    <node id="Benefit-sharing structure">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Beneficiaries">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Finances">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Project developers">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Carbon credits">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Targets">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Credit issuers">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Blue carbon credits">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Agreements and contracts">
+      <data key="d0">actor</data>
+    </node>
+    <node id="J-Blue">
+      <data key="d0">scheme</data>
+    </node>
+    <node id="Domestic corporations">
+      <data key="d0">actor</data>
+    </node>
+    <node id="J Blue Credit Operation System">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Nonprofit organizations">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Fisheries cooperatives">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Private companies">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Japan Blue Economy Technology Research Association">
+      <data key="d0">actor</data>
+    </node>
+    <node id="J Blue Credit Scheme">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Applicant">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Local communities">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Blue carbon projects">
+      <data key="d0">project</data>
+    </node>
+    <node id="Governments">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Civil society organizations">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Relevant government agencies">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Countries">
+      <data key="d0">actor</data>
+    </node>
+    <node id="National GHG inventories">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Gold Standard">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Activity">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Indigenous peoples">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Neighbours">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Processors">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Local businesses">
+      <data key="d0">actor</data>
+    </node>
+    <node id="GS-VERs">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Local Communities">
+      <data key="d0">actor</data>
+    </node>
+    <node id="NGOs">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Intergovernmental Organizations">
+      <data key="d0">project</data>
+    </node>
+    <node id="Research Institutions">
+      <data key="d0">actor</data>
+    </node>
+    <node id="IUCN">
+      <data key="d0">project</data>
+    </node>
+    <node id="UNEP">
+      <data key="d0">actor</data>
+    </node>
+    <node id="IOC-UNESCO">
+      <data key="d0">project</data>
+    </node>
+    <node id="Australian Government">
+      <data key="d0">project</data>
+    </node>
+    <node id="The World Bank">
+      <data key="d0">project</data>
+    </node>
+    <node id="Plan Vivo">
+      <data key="d0">project</data>
+    </node>
+    <node id="Project Developers">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Project Proponents">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Indigenous Peoples">
+      <data key="d0">actor</data>
+    </node>
+    <node id="National Government">
+      <data key="d0">actor</data>
+    </node>
+    <node id="CBD Framework">
+      <data key="d0">actor</data>
+    </node>
+    <node id="REDD-plus Activity Implementers">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Credit Issuers">
+      <data key="d0">actor</data>
+    </node>
+    <node id="Global Environment Centre (GEC)">
+      <data key="d0">project</data>
+    </node>
+    <node id="Joint Crediting Mechanism (JCM)">
+      <data key="d0">project</data>
+    </node>
+    <node id="TOKAI Co., Ltd.">
+      <data key="d0">project</data>
+    </node>
+    <node id="Philippines">
+      <data key="d0">project</data>
+    </node>
+    <node id="Tokyo Century Co., Ltd.">
+      <data key="d0">project</data>
+    </node>
+    <node id="Q Corporation">
+      <data key="d0">project</data>
+    </node>
+    <node id="Kanematsu Corporation">
+      <data key="d0">project</data>
+    </node>
+    <node id="JCMEco">
+      <data key="d0">project</data>
+    </node>
+    <node id="Enter">
+      <data key="d0">project</data>
+    </node>
+    <node id="Project Implementing Organizations">
+      <data key="d0">project</data>
+    </node>
+    <node id="Partner Countries">
+      <data key="d0">project</data>
+    </node>
+    <node id="Global Environment Center (GEC)">
+      <data key="d0">project</data>
+    </node>
+    <node id="Mitsubishi Heavy Industries, Ltd.">
+      <data key="d0">project</data>
+    </node>
+    <node id="Ghee company">
+      <data key="d0">project</data>
+    </node>
+    <node id="Itochu Corporation">
+      <data key="d0">project</data>
+    </node>
+    <node id="Tokyo Century - Co., Ltd.">
+      <data key="d0">project</data>
+    </node>
+    <node id="Sharp Energy Solution ION Co., Ltd.">
+      <data key="d0">project</data>
+    </node>
+    <node id="Global Environment Centre Foundation">
+      <data key="d0">project</data>
+    </node>
+    <node id="Osaka Headquarters">
+      <data key="d0">project</data>
+    </node>
+    <node id="Tokyo Office">
+      <data key="d0">project</data>
+    </node>
+    <node id="General Affairs Division">
+      <data key="d0">project</data>
+    </node>
+    <node id="Hongo Ozeki Building">
+      <data key="d0">project</data>
+    </node>
+    <node id="Nippon Steel Corporation">
+      <data key="d0">project</data>
+    </node>
+    <node id="Mashike Fisheries Cooperative Association">
+      <data key="d0">project</data>
+    </node>
+    <node id="JBlue Credit">
+      <data key="d0">project</data>
+    </node>
+    <node id="Morimachi">
+      <data key="d0">project</data>
+    </node>
+    <node id="Project Implementer">
+      <data key="d0">project</data>
+    </node>
+    <node id="Onomichi City">
+      <data key="d0">project</data>
+    </node>
+    <node id="System administrator">
+      <data key="d0">project</data>
+    </node>
+    <node id="Public">
+      <data key="d0">project</data>
+    </node>
+    <node id="Oshima Tidal Flats Development Association">
+      <data key="d0">project</data>
+    </node>
+    <node id="Nippon Seiro Co., Ltd.">
+      <data key="d0">project</data>
+    </node>
+    <node id="Tosoh Corporation">
+      <data key="d0">project</data>
+    </node>
+    <node id="Idemitsu Kosan Co., Ltd.">
+      <data key="d0">project</data>
+    </node>
+    <node id="Hannan City NPO Osaka Bay Coastal Area Environmental Creation Research Center">
+      <data key="d0">project</data>
+    </node>
+    <node id="Ozaki Fisheries Cooperative Association">
+      <data key="d0">project</data>
+    </node>
+    <node id="West Tottori Fisheries Cooperative Association">
+      <data key="d0">project</data>
+    </node>
+    <node id="Shimoshou Fisheries Cooperative Association">
+      <data key="d0">project</data>
+    </node>
+    <node id="Seven-Eleven Japan Co., Ltd.">
+      <data key="d0">project</data>
+    </node>
+    <node id="Itami City">
+      <data key="d0">project</data>
+    </node>
+    <node id="Shunan City">
+      <data key="d0">project</data>
+    </node>
+    <node id="Tokuyama Kudamatsu Port">
+      <data key="d0">project</data>
+    </node>
+    <node id="Tokio Marine &amp; Nichido Fire Insurance Co., Ltd.">
+      <data key="d0">project</data>
+    </node>
+    <node id="IPBC Coordinator">
+      <data key="d0">project</data>
+    </node>
+    <node id="ipbc@environment.gov.au">
+      <data key="d0">project</data>
+    </node>
+    <node id="International Partnership for Blue Carbon">
+      <data key="d0">project</data>
+    </node>
+    <node id="bluecarbonpartnership.org">
+      <data key="d0">project</data>
+    </node>
+    <node id="Sovereign States">
+      <data key="d0">project</data>
+    </node>
+    <node id="Intergovernmental Organization">
+      <data key="d0">project</data>
+    </node>
+    <node id="Treaty or Agreement">
+      <data key="d0">project</data>
+    </node>
+    <node id="United Nations">
+      <data key="d0">project</data>
+    </node>
+    <node id="World Bank">
+      <data key="d0">project</data>
+    </node>
+    <node id="European Union">
+      <data key="d0">project</data>
+    </node>
+    <node id="Non-governmental Organization">
+      <data key="d0">project</data>
+    </node>
+    <node id="Social Mission">
+      <data key="d0">project</data>
+    </node>
+    <node id="Government">
+      <data key="d0">project</data>
+    </node>
+    <node id="Global Initiative">
+      <data key="d0">project</data>
+    </node>
+    <node id="Organizations">
+      <data key="d0">project</data>
+    </node>
+    <node id="Individuals">
+      <data key="d0">project</data>
+    </node>
+    <node id="Non-Governmental Organizations">
+      <data key="d0">project</data>
+    </node>
+    <node id="Global Initiatives">
+      <data key="d0">project</data>
+    </node>
+    <node id="International Partnership for Blue Carbon (IPBC)">
+      <data key="d0">project</data>
+    </node>
+    <node id="Partner Organizations">
+      <data key="d0">project</data>
+    </node>
+    <node id="IPBC Partners">
+      <data key="d0">project</data>
+    </node>
+    <node id="International Partnership for Blue Carbon (IPBC) website">
+      <data key="d0">project</data>
+    </node>
+    <node id="Center for International Forestry Research (CIFOR)">
+      <data key="d0">project</data>
+    </node>
+    <node id="Global Environment Facility (GEF)">
+      <data key="d0">project</data>
+    </node>
+    <node id="Green Climate Fund (GCF)">
+      <data key="d0">project</data>
+    </node>
+    <node id="United Nations Environment Programme (UNEP)">
+      <data key="d0">project</data>
+    </node>
+    <node id="International Union for Conservation of Nature (IUCN)">
+      <data key="d0">project</data>
+    </node>
+    <node id="The Commonwealth Blue Charter">
+      <data key="d0">project</data>
+    </node>
+    <node id="Pacific Island Development Forum (PIDF)">
+      <data key="d0">project</data>
+    </node>
+    <node id="BLUE Marine Foundation">
+      <data key="d0">project</data>
+    </node>
+    <node id="The Nature Conservancy (TNC)">
+      <data key="d0">project</data>
+    </node>
+    <node id="Conservation International">
+      <data key="d0">project</data>
+    </node>
+    <node id="GRID Arendal">
+      <data key="d0">project</data>
+    </node>
+    <node id="Mangrove Action Project">
+      <data key="d0">project</data>
+    </node>
+    <node id="Wetlands International">
+      <data key="d0">project</data>
+    </node>
+    <node id="The Pew Charitable Trusts">
+      <data key="d0">project</data>
+    </node>
+    <node id="Oceans 2050 Foundation">
+      <data key="d0">project</data>
+    </node>
+    <node id="Plan Vivo Foundation">
+      <data key="d0">project</data>
+    </node>
+    <node id="Project Seagrass">
+      <data key="d0">project</data>
+    </node>
+    <node id="Rare">
+      <data key="d0">project</data>
+    </node>
+    <node id="Blue Carbon Accelerator Fund (BCAF)">
+      <data key="d0">project</data>
+    </node>
+    <node id="Blue Natural Capital Financing Facility (BNCFF)">
+      <data key="d0">project</data>
+    </node>
+    <node id="Blue Carbon Buyers Alliance">
+      <data key="d0">project</data>
+    </node>
+    <node id="Friends of Ocean Action">
+      <data key="d0">project</data>
+    </node>
+    <node id="Global Coalition for Blue Carbon">
+      <data key="d0">project</data>
+    </node>
+    <node id="Global Ocean Decade Programme for Blue Carbon (GO-BC)">
+      <data key="d0">project</data>
+    </node>
+    <node id="Global Mangrove Alliance">
+      <data key="d0">project</data>
+    </node>
+    <node id="Mangroves for the Future (MFF)">
+      <data key="d0">project</data>
+    </node>
+    <node id="IORA Indian Ocean Blue Carbon Hub">
+      <data key="d0">project</data>
+    </node>
+    <node id="Kiwa Initiative">
+      <data key="d0">project</data>
+    </node>
+    <node id="The Blue Carbon Initiative (BCI)">
+      <data key="d0">project</data>
+    </node>
+    <node id="World Mangrove Center">
+      <data key="d0">project</data>
+    </node>
+    <node id="Ocean Risk and Resilience Action Alliance (ORRAA)">
+      <data key="d0">project</data>
+    </node>
+    <node id="Seascape Carbon Initiative">
+      <data key="d0">project</data>
+    </node>
+    <node id="The Gallifrey Foundation Fair Carbon">
+      <data key="d0">project</data>
+    </node>
+    <node id="The Ocean Foundation (TOF)">
+      <data key="d0">project</data>
+    </node>
+    <node id="CIFOR">
+      <data key="d0">project</data>
+    </node>
+    <node id="CGIAR Research Program on Forests, Trees and Agroforestry (FTA)">
+      <data key="d0">project</data>
+    </node>
+    <node id="CGIAR">
+      <data key="d0">project</data>
+    </node>
+    <node id="Convention on Wetlands">
+      <data key="d0">project</data>
+    </node>
+    <node id="Wetlands of International Importance (Ramsar Sites)">
+      <data key="d0">project</data>
+    </node>
+    <node id="Coastal blue carbon ecosystems">
+      <data key="d0">project</data>
+    </node>
+    <node id="Developing countries">
+      <data key="d0">project</data>
+    </node>
+    <node id="Paris Agreement">
+      <data key="d0">project</data>
+    </node>
+    <node id="PIDF">
+      <data key="d0">project</data>
+    </node>
+    <node id="University of South Pacific (USP)">
+      <data key="d0">project</data>
+    </node>
+    <node id="Pacific Green Business Centre (PGBC)">
+      <data key="d0">project</data>
+    </node>
+    <node id="Seaweed Initiative">
+      <data key="d0">project</data>
+    </node>
+    <node id="Commonwealth Blue Charter">
+      <data key="d0">project</data>
+    </node>
+    <node id="Mangrove Restoration Action Group">
+      <data key="d0">project</data>
+    </node>
+    <node id="Sri Lanka">
+      <data key="d0">project</data>
+    </node>
+    <node id="Silvestrum Climate Associates">
+      <data key="d0">project</data>
+    </node>
+    <node id="Blue Carbon Initiative">
+      <data key="d0">project</data>
+    </node>
+    <node id="Oceans 2050">
+      <data key="d0">project</data>
+    </node>
+    <node id="Blue Ventures">
+      <data key="d0">project</data>
+    </node>
+    <node id="local communities in Madagascar">
+      <data key="d0">project</data>
+    </node>
+    <node id="various stakeholders">
+      <data key="d0">project</data>
+    </node>
+    <node id="research institutions">
+      <data key="d0">project</data>
+    </node>
+    <node id="carbon market stakeholders">
+      <data key="d0">project</data>
+    </node>
+    <node id="Tahiry Honko project">
+      <data key="d0">project</data>
+    </node>
+    <node id="Mikoko Pamoja">
+      <data key="d0">project</data>
+    </node>
+    <node id="Tahiry Honko">
+      <data key="d0">project</data>
+    </node>
+    <node id="Vanga Blue Forest">
+      <data key="d0">project</data>
+    </node>
+    <node id="seagrass ecosystem communities">
+      <data key="d0">project</data>
+    </node>
+    <node id="coastal communities">
+      <data key="d0">project</data>
+    </node>
+    <node id="small-scale fishers">
+      <data key="d0">project</data>
+    </node>
+    <node id="South Pole">
+      <data key="d0">project</data>
+    </node>
+    <node id="Colombia">
+      <data key="d0">project</data>
+    </node>
+    <node id="BCAF projects">
+      <data key="d0">project</data>
+    </node>
+    <node id="Voluntary carbon market">
+      <data key="d0">project</data>
+    </node>
+    <node id="Netflix">
+      <data key="d0">project</data>
+    </node>
+    <node id="Salesforce">
+      <data key="d0">project</data>
+    </node>
+    <node id="Disney">
+      <data key="d0">project</data>
+    </node>
+    <node id="Microsoft">
+      <data key="d0">project</data>
+    </node>
+    <node id="Apple">
+      <data key="d0">project</data>
+    </node>
+    <node id="Google">
+      <data key="d0">project</data>
+    </node>
+    <node id="Amazon">
+      <data key="d0">project</data>
+    </node>
+    <node id="Workday">
+      <data key="d0">project</data>
+    </node>
+    <node id="Luxemburg">
+      <data key="d0">project</data>
+    </node>
+    <node id="BNCFF">
+      <data key="d0">project</data>
+    </node>
+    <node id="Blue natural capital projects">
+      <data key="d0">project</data>
+    </node>
+    <node id="Mangroves Working Group">
+      <data key="d0">project</data>
+    </node>
+    <node id="1t.org">
+      <data key="d0">project</data>
+    </node>
+    <node id="Companies and investors">
+      <data key="d0">project</data>
+    </node>
+    <node id="Non-profit organizations">
+      <data key="d0">project</data>
+    </node>
+    <node id="IPBC">
+      <data key="d0">project</data>
+    </node>
+    <node id="government agencies">
+      <data key="d0">project</data>
+    </node>
+    <node id="non-governmental organizations">
+      <data key="d0">project</data>
+    </node>
+    <node id="intergovernmental organizations">
+      <data key="d0">project</data>
+    </node>
+    <node id="CSIRO">
+      <data key="d0">project</data>
+    </node>
+    <node id="Indian Ocean countries">
+      <data key="d0">project</data>
+    </node>
+    <node id="Pacific Island ecosystems">
+      <data key="d0">project</data>
+    </node>
+    <node id="national and local authorities">
+      <data key="d0">project</data>
+    </node>
+    <node id="civil society">
+      <data key="d0">project</data>
+    </node>
+    <node id="UNFCCC">
+      <data key="d0">project</data>
+    </node>
+    <node id="BCI">
+      <data key="d0">project</data>
+    </node>
+    <node id="International Blue Carbon Scientific Working Group">
+      <data key="d0">project</data>
+    </node>
+    <node id="International Blue Carbon Policy Working Group">
+      <data key="d0">project</data>
+    </node>
+    <node id="Gallifrey Foundation">
+      <data key="d0">project</data>
+    </node>
+    <node id="The Ocean Foundation">
+      <data key="d0">project</data>
+    </node>
+    <node id="Individual donors">
+      <data key="d0">project</data>
+    </node>
+    <node id="Foundations">
+      <data key="d0">project</data>
+    </node>
+    <node id="Corporations">
+      <data key="d0">project</data>
+    </node>
+    <node id="Events">
+      <data key="d0">project</data>
+    </node>
+    <edge source="Project Proponent" target="JCM">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Project Proponent" target="Supporting Organization">
+      <data key="d1">seeks support from</data>
+      <data key="d2">JCM</data>
+    </edge>
+    <edge source="Project Proponent" target="Joint Committee (JC)">
+      <data key="d1">seeks methodology approval from</data>
+      <data key="d2">JCM</data>
+    </edge>
+    <edge source="Project Proponent" target="JCM Secretariat">
+      <data key="d1">submits project to</data>
+      <data key="d2">JCM</data>
+    </edge>
+    <edge source="Supporting Organization" target="JCM">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Supporting Organization" target="Ministry of the Environment of Japan">
+      <data key="d1">entrusted by</data>
+      <data key="d2">JCM</data>
+    </edge>
+    <edge source="Ministry of the Environment of Japan" target="JCM">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Ministry of the Environment of Japan" target="Supporting Organization">
+      <data key="d1">entrusts project implementation to</data>
+      <data key="d2">JCM</data>
+    </edge>
+    <edge source="Joint Committee (JC)" target="JCM">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Joint Committee (JC)" target="Project Proponent">
+      <data key="d1">approves methodology for</data>
+      <data key="d2">JCM</data>
+    </edge>
+    <edge source="JCM Secretariat" target="JCM">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="JCM Secretariat" target="Joint Committee (JC)">
+      <data key="d1">coordinates with</data>
+      <data key="d2">JCM</data>
+    </edge>
+    <edge source="Verra" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Verra" target="Blue carbon projects">
+      <data key="d1">provide framework for</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Verra" target="Project Proponents">
+      <data key="d1">verifies compliance with applicability conditions</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Verra" target="Green Climate Fund (GCF)">
+      <data key="d1">verification of carbon credits</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Verra" target="Conservation International">
+      <data key="d1">partnered for Blue Carbon Project</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Verra" target="South Pole">
+      <data key="d1">collaborated on project development</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Verra" target="Colombia">
+      <data key="d1">implemented carbon conservation project</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Communities" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Communities" target="Project">
+      <data key="d1">participate in management</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Project" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Stakeholders" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Stakeholders" target="Benefit-sharing structure">
+      <data key="d1">define roles</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Benefit-sharing structure" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Beneficiaries" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Beneficiaries" target="Finances">
+      <data key="d1">understand application and use</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Finances" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Project developers" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Project developers" target="Beneficiaries">
+      <data key="d1">provide transparent information</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Project developers" target="Carbon credits">
+      <data key="d1">commit to retire</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Project developers" target="Targets">
+      <data key="d1">achieve through plans and strategies</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Carbon credits" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Targets" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Credit issuers" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Credit issuers" target="Blue carbon credits">
+      <data key="d1">issue high-quality credits</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Credit issuers" target="Agreements and contracts">
+      <data key="d1">design for fair pricing and compensation</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Blue carbon credits" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Agreements and contracts" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Domestic corporations" target="J-Blue">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Domestic corporations" target="J Blue Credit Operation System">
+      <data key="d1">submits application</data>
+      <data key="d2">J-Blue</data>
+    </edge>
+    <edge source="J Blue Credit Operation System" target="J-Blue">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="J Blue Credit Operation System" target="Applicant">
+      <data key="d1">evaluates application and awards credits</data>
+      <data key="d2">J-Blue</data>
+    </edge>
+    <edge source="Nonprofit organizations" target="J-Blue">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Nonprofit organizations" target="J Blue Credit Operation System">
+      <data key="d1">submits application</data>
+      <data key="d2">J-Blue</data>
+    </edge>
+    <edge source="Fisheries cooperatives" target="J-Blue">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Fisheries cooperatives" target="J Blue Credit Operation System">
+      <data key="d1">submits application</data>
+      <data key="d2">J-Blue</data>
+    </edge>
+    <edge source="Private companies" target="J-Blue">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Private companies" target="J Blue Credit Operation System">
+      <data key="d1">submits application</data>
+      <data key="d2">J-Blue</data>
+    </edge>
+    <edge source="Japan Blue Economy Technology Research Association" target="J-Blue">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Japan Blue Economy Technology Research Association" target="J Blue Credit Scheme">
+      <data key="d1">provides system design and technical guidance</data>
+      <data key="d2">J-Blue</data>
+    </edge>
+    <edge source="J Blue Credit Scheme" target="J-Blue">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Applicant" target="J-Blue">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Applicant" target="J Blue Credit Operation System">
+      <data key="d1">provides project information and documentation</data>
+      <data key="d2">J-Blue</data>
+    </edge>
+    <edge source="Applicant" target="Gold Standard">
+      <data key="d1">seeks certification from</data>
+      <data key="d2">Gold Standard</data>
+    </edge>
+    <edge source="Local communities" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Local communities" target="Blue carbon projects">
+      <data key="d1">benefit from</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Local communities" target="Governments">
+      <data key="d1">interact with</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Local communities" target="Gold Standard">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Local communities" target="Activity">
+      <data key="d1">affected by</data>
+      <data key="d2">Gold Standard</data>
+    </edge>
+    <edge source="Blue carbon projects" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Governments" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Governments" target="Blue carbon projects">
+      <data key="d1">regulate</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Governments" target="Local Communities">
+      <data key="d1">collaboration in blue carbon projects</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Civil society organizations" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Civil society organizations" target="Blue carbon projects">
+      <data key="d1">support</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Civil society organizations" target="Governments">
+      <data key="d1">collaborate with</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Relevant government agencies" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Relevant government agencies" target="Blue carbon projects">
+      <data key="d1">oversee</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Relevant government agencies" target="Countries">
+      <data key="d1">report to</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Countries" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Countries" target="National GHG inventories">
+      <data key="d1">maintain</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="National GHG inventories" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Gold Standard" target="Gold Standard">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Gold Standard" target="Activity">
+      <data key="d1">certifies</data>
+      <data key="d2">Gold Standard</data>
+    </edge>
+    <edge source="Activity" target="Gold Standard">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Activity" target="GS-VERs">
+      <data key="d1">issued with</data>
+      <data key="d2">Gold Standard</data>
+    </edge>
+    <edge source="Indigenous peoples" target="Gold Standard">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Indigenous peoples" target="Activity">
+      <data key="d1">affected by</data>
+      <data key="d2">Gold Standard</data>
+    </edge>
+    <edge source="Neighbours" target="Gold Standard">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Neighbours" target="Activity">
+      <data key="d1">affected by</data>
+      <data key="d2">Gold Standard</data>
+    </edge>
+    <edge source="Processors" target="Gold Standard">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Processors" target="Activity">
+      <data key="d1">affected by</data>
+      <data key="d2">Gold Standard</data>
+    </edge>
+    <edge source="Local businesses" target="Gold Standard">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Local businesses" target="Activity">
+      <data key="d1">affected by</data>
+      <data key="d2">Gold Standard</data>
+    </edge>
+    <edge source="GS-VERs" target="Gold Standard">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Local Communities" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Local Communities" target="JCM">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="NGOs" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="NGOs" target="Local Communities">
+      <data key="d1">support in blue carbon projects</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Intergovernmental Organizations" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Intergovernmental Organizations" target="Governments">
+      <data key="d1">partnership in blue carbon initiatives</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Intergovernmental Organizations" target="Non-Governmental Organizations">
+      <data key="d1">collaboration in blue carbon field</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Research Institutions" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Research Institutions" target="NGOs">
+      <data key="d1">technical assistance in blue carbon projects</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="IUCN" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="IUCN" target="UNEP">
+      <data key="d1">collaboration on environmental conservation</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="IUCN" target="Conservation International">
+      <data key="d1">co-sponsor of Blue Carbon Initiative</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="IUCN" target="IOC-UNESCO">
+      <data key="d1">co-coordinates BCI</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="IUCN" target="Australian Government">
+      <data key="d1">partnership for Blue Carbon Accelerator Fund management</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="IUCN" target="International Partnership for Blue Carbon (IPBC)">
+      <data key="d1">addresses barriers identified by IPBC</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="IUCN" target="Blue Natural Capital Financing Facility (BNCFF)">
+      <data key="d1">manager of BNCFF</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="IUCN" target="BCAF projects">
+      <data key="d1">manager of funds for readiness and implementation support</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="IUCN" target="BNCFF">
+      <data key="d1">manager</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="UNEP" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="IOC-UNESCO" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="IOC-UNESCO" target="Australian Government">
+      <data key="d1">partnership on blue carbon ecosystem management</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="IOC-UNESCO" target="IPBC">
+      <data key="d1">supporter</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Australian Government" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Australian Government" target="IUCN">
+      <data key="d1">partners in managing Blue Carbon Accelerator Fund</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Australian Government" target="BCAF projects">
+      <data key="d1">provider of funds for readiness and implementation support</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Australian Government" target="IPBC">
+      <data key="d1">initiator and coordinator</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Australian Government" target="IOC-UNESCO">
+      <data key="d1">partner</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="The World Bank" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="The World Bank" target="Governments">
+      <data key="d1">funding for blue carbon projects</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Plan Vivo" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Plan Vivo" target="Project Developers">
+      <data key="d1">certification of blue carbon projects</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Project Developers" target="Verra">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Project Proponents" target="Verra">
+      <data key="d1">participates_in</data>
+      <data key="d2">Verra</data>
+    </edge>
+    <edge source="Project Proponents" target="JCM">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Project Proponents" target="Indigenous Peoples">
+      <data key="d1">respect for knowledge and rights</data>
+      <data key="d2">JCM</data>
+    </edge>
+    <edge source="Project Proponents" target="Local Communities">
+      <data key="d1">full and effective participation</data>
+      <data key="d2">JCM</data>
+    </edge>
+    <edge source="Project Proponents" target="National Government">
+      <data key="d1">compliance with National Biodiversity Strategies</data>
+      <data key="d2">JCM</data>
+    </edge>
+    <edge source="Project Proponents" target="REDD-plus Activity Implementers">
+      <data key="d1">eligibility criteria for target area</data>
+      <data key="d2">JCM</data>
+    </edge>
+    <edge source="Project Proponents" target="Credit Issuers">
+      <data key="d1">reversal of deforestation/forest degradation</data>
+      <data key="d2">JCM</data>
+    </edge>
+    <edge source="Indigenous Peoples" target="JCM">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="National Government" target="JCM">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="National Government" target="CBD Framework">
+      <data key="d1">formulation of Action Plans</data>
+      <data key="d2">JCM</data>
+    </edge>
+    <edge source="CBD Framework" target="JCM">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="REDD-plus Activity Implementers" target="JCM">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="REDD-plus Activity Implementers" target="Project Proponents">
+      <data key="d1">demonstration of effectiveness and additionality</data>
+      <data key="d2">JCM</data>
+    </edge>
+    <edge source="Credit Issuers" target="JCM">
+      <data key="d1">participates_in</data>
+    </edge>
+    <edge source="Credit Issuers" target="Project Proponents">
+      <data key="d1">condition for credit issuance</data>
+      <data key="d2">JCM</data>
+    </edge>
+    <edge source="Global Environment Centre (GEC)" target="Joint Crediting Mechanism (JCM)">
+      <data key="d1">implements</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Global Environment Centre (GEC)" target="Project Implementing Organizations">
+      <data key="d1">oversight and support</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Joint Crediting Mechanism (JCM)" target="Partner Countries">
+      <data key="d1">collaboration and credit issuance</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Joint Crediting Mechanism (JCM)" target="Global Environment Center (GEC)">
+      <data key="d1">Project administrator</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="TOKAI Co., Ltd." target="Philippines">
+      <data key="d1">project implementation</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Tokyo Century Co., Ltd." target="Philippines">
+      <data key="d1">project implementation</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Q Corporation" target="Philippines">
+      <data key="d1">project implementation</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Kanematsu Corporation" target="Philippines">
+      <data key="d1">project implementation</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="JCMEco" target="Enter">
+      <data key="d1">business partnership</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Project Implementing Organizations" target="Partner Countries">
+      <data key="d1">project execution and credit acquisition</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Global Environment Center (GEC)" target="Mitsubishi Heavy Industries, Ltd.">
+      <data key="d1">Project partner for Palayan Geothermal Power Plant</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Mitsubishi Heavy Industries, Ltd." target="Philippines">
+      <data key="d1">Project implementation location</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Ghee company" target="Itochu Corporation">
+      <data key="d1">Collaborator for biogas power generation project</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Ghee company" target="Philippines">
+      <data key="d1">Project implementation location</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Ghee company" target="Tokyo Century - Co., Ltd.">
+      <data key="d1">Collaborator for solar power generation system introduction</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Itochu Corporation" target="Ghee company">
+      <data key="d1">Equipment subsidy provider</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Tokyo Century - Co., Ltd." target="Philippines">
+      <data key="d1">Project implementation location</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Tokyo Century - Co., Ltd." target="Sharp Energy Solution ION Co., Ltd.">
+      <data key="d1">Collaborator for solar Photovoltaic Power Generation Project</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Tokyo Century - Co., Ltd." target="Ghee company">
+      <data key="d1">Equipment subsidy provider</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Sharp Energy Solution ION Co., Ltd." target="Philippines">
+      <data key="d1">Project implementation location</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Global Environment Centre Foundation" target="Global Environment Centre (GEC)">
+      <data key="d1">funds</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Osaka Headquarters" target="Global Environment Centre (GEC)">
+      <data key="d1">hosts</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Tokyo Office" target="Global Environment Centre (GEC)">
+      <data key="d1">supports</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="General Affairs Division" target="Osaka Headquarters">
+      <data key="d1">part of</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Hongo Ozeki Building" target="Tokyo Office">
+      <data key="d1">hosts</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Nippon Steel Corporation" target="Mashike Fisheries Cooperative Association">
+      <data key="d1">Project Implementer and Partner</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Nippon Steel Corporation" target="JBlue Credit">
+      <data key="d1">Credit Holder and Credit Management</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Nippon Steel Corporation" target="Morimachi">
+      <data key="d1">Project Implementer and Partner</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Mashike Fisheries Cooperative Association" target="JBlue Credit">
+      <data key="d1">Project Verifier and Credit Issuer</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="JBlue Credit" target="Nippon Steel Corporation">
+      <data key="d1">Credit Issuer and Credit Holder</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="JBlue Credit" target="Mashike Fisheries Cooperative Association">
+      <data key="d1">Credit Verifier and Project Implementer</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="JBlue Credit" target="Project Implementer">
+      <data key="d1">Credit authorization</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="JBlue Credit" target="System administrator">
+      <data key="d1">Credit management</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="JBlue Credit" target="Oshima Tidal Flats Development Association">
+      <data key="d1">credit management</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="JBlue Credit" target="Nippon Seiro Co., Ltd.">
+      <data key="d1">verified credits</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="JBlue Credit" target="Tosoh Corporation">
+      <data key="d1">verified credits</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="JBlue Credit" target="Idemitsu Kosan Co., Ltd.">
+      <data key="d1">verified credits</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="JBlue Credit" target="Hannan City NPO Osaka Bay Coastal Area Environmental Creation Research Center">
+      <data key="d1">credit management</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="JBlue Credit" target="Seven-Eleven Japan Co., Ltd.">
+      <data key="d1">credit management</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="JBlue Credit" target="Itami City">
+      <data key="d1">credit management</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Project Implementer" target="Onomichi City">
+      <data key="d1">Project implementation</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Onomichi City" target="JBlue Credit">
+      <data key="d1">Credit transfer</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Onomichi City" target="Public">
+      <data key="d1">Credit transfer</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="System administrator" target="Public">
+      <data key="d1">Credit offering</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Oshima Tidal Flats Development Association" target="Nippon Seiro Co., Ltd.">
+      <data key="d1">transferred credits</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Oshima Tidal Flats Development Association" target="Tosoh Corporation">
+      <data key="d1">credit transfer</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Oshima Tidal Flats Development Association" target="Idemitsu Kosan Co., Ltd.">
+      <data key="d1">transferred credits</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Oshima Tidal Flats Development Association" target="Shunan City">
+      <data key="d1">project implementation partnership</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Oshima Tidal Flats Development Association" target="Tokuyama Kudamatsu Port">
+      <data key="d1">project connection</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Oshima Tidal Flats Development Association" target="Tokio Marine &amp; Nichido Fire Insurance Co., Ltd.">
+      <data key="d1">credit transfer</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Tosoh Corporation" target="JBlue Credit">
+      <data key="d1">credit verification</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Hannan City NPO Osaka Bay Coastal Area Environmental Creation Research Center" target="Ozaki Fisheries Cooperative Association">
+      <data key="d1">project partnership</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Hannan City NPO Osaka Bay Coastal Area Environmental Creation Research Center" target="West Tottori Fisheries Cooperative Association">
+      <data key="d1">project partnership</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Hannan City NPO Osaka Bay Coastal Area Environmental Creation Research Center" target="Shimoshou Fisheries Cooperative Association">
+      <data key="d1">project partnership</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Hannan City NPO Osaka Bay Coastal Area Environmental Creation Research Center" target="Seven-Eleven Japan Co., Ltd.">
+      <data key="d1">credit transfer</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Hannan City NPO Osaka Bay Coastal Area Environmental Creation Research Center" target="Itami City">
+      <data key="d1">credit transfer</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Ozaki Fisheries Cooperative Association" target="Seven-Eleven Japan Co., Ltd.">
+      <data key="d1">credit transfer</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="West Tottori Fisheries Cooperative Association" target="Seven-Eleven Japan Co., Ltd.">
+      <data key="d1">credit transfer</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Shimoshou Fisheries Cooperative Association" target="Seven-Eleven Japan Co., Ltd.">
+      <data key="d1">credit transfer</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Shunan City" target="Oshima Tidal Flats Development Association">
+      <data key="d1">credit holding</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Tokio Marine &amp; Nichido Fire Insurance Co., Ltd." target="JBlue Credit">
+      <data key="d1">credit verification</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="IPBC Coordinator" target="ipbc@environment.gov.au">
+      <data key="d1">contact point</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="IPBC Coordinator" target="International Partnership for Blue Carbon">
+      <data key="d1">represents</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="International Partnership for Blue Carbon" target="IPBC Coordinator">
+      <data key="d1">employs</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="International Partnership for Blue Carbon" target="bluecarbonpartnership.org">
+      <data key="d1">maintains website</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Sovereign States" target="Intergovernmental Organization">
+      <data key="d1">founding member</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Intergovernmental Organization" target="Treaty or Agreement">
+      <data key="d1">established by</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="United Nations" target="Intergovernmental Organization">
+      <data key="d1">example of</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="World Bank" target="Intergovernmental Organization">
+      <data key="d1">example of</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="European Union" target="Intergovernmental Organization">
+      <data key="d1">example of</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Non-governmental Organization" target="Social Mission">
+      <data key="d1">has goal</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Non-governmental Organization" target="Government">
+      <data key="d1">operates independently from</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Global Initiative" target="Organizations">
+      <data key="d1">collaborates with</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Global Initiative" target="Individuals">
+      <data key="d1">collaborates with</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Global Initiative" target="Stakeholders">
+      <data key="d1">collaborates with</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Organizations" target="International Partnership for Blue Carbon (IPBC) website">
+      <data key="d1">information sharing</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Global Initiatives" target="Intergovernmental Organizations">
+      <data key="d1">partnership in blue carbon activities</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="International Partnership for Blue Carbon (IPBC)" target="Partner Organizations">
+      <data key="d1">membership</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="International Partnership for Blue Carbon (IPBC)" target="IORA Indian Ocean Blue Carbon Hub">
+      <data key="d1">regional hub</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="IPBC Partners" target="International Partnership for Blue Carbon (IPBC)">
+      <data key="d1">affiliation</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Center for International Forestry Research (CIFOR)" target="Global Environment Facility (GEF)">
+      <data key="d1">collaboration on environmental projects</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Green Climate Fund (GCF)" target="United Nations Environment Programme (UNEP)">
+      <data key="d1">funding and technical support</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Green Climate Fund (GCF)" target="Developing countries">
+      <data key="d1">provides climate finance to</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Green Climate Fund (GCF)" target="Paris Agreement">
+      <data key="d1">supports implementation of</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="International Union for Conservation of Nature (IUCN)" target="The World Bank">
+      <data key="d1">partnership on conservation efforts</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="The Commonwealth Blue Charter" target="Pacific Island Development Forum (PIDF)">
+      <data key="d1">regional cooperation on ocean conservation</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="BLUE Marine Foundation" target="The Nature Conservancy (TNC)">
+      <data key="d1">joint conservation initiatives</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="BLUE Marine Foundation" target="Silvestrum Climate Associates">
+      <data key="d1">collaboration on Seascape Carbon Initiative</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="BLUE Marine Foundation" target="Blue Carbon Initiative">
+      <data key="d1">collaboration on Seascape Carbon Initiative</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="BLUE Marine Foundation" target="Oceans 2050">
+      <data key="d1">partner in Seascape Carbon Initiative</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="BLUE Marine Foundation" target="BCI">
+      <data key="d1">partner in Seascape Carbon Initiative</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Conservation International" target="Verra">
+      <data key="d1">verification and validation of carbon credits</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Conservation International" target="various stakeholders">
+      <data key="d1">collaboration on blue carbon projects</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Conservation International" target="South Pole">
+      <data key="d1">received technical support</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Conservation International" target="Colombia">
+      <data key="d1">developed project in the country</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Conservation International" target="IUCN">
+      <data key="d1">co-coordinates BCI</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Conservation International" target="IOC-UNESCO">
+      <data key="d1">co-coordinates BCI</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="GRID Arendal" target="United Nations Environment Programme (UNEP)">
+      <data key="d1">support on environmental data and analysis</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Mangrove Action Project" target="Wetlands International">
+      <data key="d1">cooperation on wetland conservation</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="The Pew Charitable Trusts" target="Oceans 2050 Foundation">
+      <data key="d1">funding and research support</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Plan Vivo Foundation" target="Project Seagrass">
+      <data key="d1">partnership on ecosystem restoration</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Plan Vivo Foundation" target="Mikoko Pamoja">
+      <data key="d1">certification body for blue carbon project</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Plan Vivo Foundation" target="Tahiry Honko">
+      <data key="d1">certification body for blue carbon project</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Plan Vivo Foundation" target="Vanga Blue Forest">
+      <data key="d1">certification body for blue carbon project</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Project Seagrass" target="seagrass ecosystem communities">
+      <data key="d1">conservation and research support</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Rare" target="International Union for Conservation of Nature (IUCN)">
+      <data key="d1">collaboration on species conservation</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Rare" target="coastal communities">
+      <data key="d1">promoting sustainable natural resource management</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Rare" target="small-scale fishers">
+      <data key="d1">promoting sustainable natural resource management</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Blue Carbon Accelerator Fund (BCAF)" target="Blue Natural Capital Financing Facility (BNCFF)">
+      <data key="d1">funding partner</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Blue Carbon Buyers Alliance" target="Blue Carbon Accelerator Fund (BCAF)">
+      <data key="d1">investor</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Blue Carbon Buyers Alliance" target="Voluntary carbon market">
+      <data key="d1">catalyst for blue carbon ecosystem preservation and restoration</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Friends of Ocean Action" target="Global Coalition for Blue Carbon">
+      <data key="d1">coalition member</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Friends of Ocean Action" target="Mangroves Working Group">
+      <data key="d1">creator</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Friends of Ocean Action" target="Companies and investors">
+      <data key="d1">enabler of contributions to mangrove conservation and restoration</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Global Ocean Decade Programme for Blue Carbon (GO-BC)" target="International Partnership for Blue Carbon (IPBC)">
+      <data key="d1">program partner</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Global Mangrove Alliance" target="Mangroves for the Future (MFF)">
+      <data key="d1">alliance member</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Mangroves for the Future (MFF)" target="World Mangrove Center">
+      <data key="d1">center of excellence</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="IORA Indian Ocean Blue Carbon Hub" target="Indian Ocean countries">
+      <data key="d1">knowledge and capacity building</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Kiwa Initiative" target="The Blue Carbon Initiative (BCI)">
+      <data key="d1">project partner</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Kiwa Initiative" target="Pacific Island ecosystems">
+      <data key="d1">climate change resilience strengthening</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Kiwa Initiative" target="national and local authorities">
+      <data key="d1">funding and support</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Kiwa Initiative" target="civil society">
+      <data key="d1">funding and support</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="The Blue Carbon Initiative (BCI)" target="The Gallifrey Foundation Fair Carbon">
+      <data key="d1">foundation supporter</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Ocean Risk and Resilience Action Alliance (ORRAA)" target="Seascape Carbon Initiative">
+      <data key="d1">initiative partner</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Seascape Carbon Initiative" target="research institutions">
+      <data key="d1">catalysing research on seascape carbon activities</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Seascape Carbon Initiative" target="carbon market stakeholders">
+      <data key="d1">developing carbon crediting methodologies</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="The Ocean Foundation (TOF)" target="Global Coalition for Blue Carbon">
+      <data key="d1">coalition supporter</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="CIFOR" target="CGIAR Research Program on Forests, Trees and Agroforestry (FTA)">
+      <data key="d1">leads</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="CIFOR" target="CGIAR">
+      <data key="d1">member</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="CIFOR" target="Green Climate Fund (GCF)">
+      <data key="d1">potentially collaborates with on wetlands projects</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Convention on Wetlands" target="Wetlands of International Importance (Ramsar Sites)">
+      <data key="d1">designates and manages</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Convention on Wetlands" target="Coastal blue carbon ecosystems">
+      <data key="d1">protects and conserves</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Convention on Wetlands" target="CIFOR">
+      <data key="d1">aligns with research goals of</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="PIDF" target="University of South Pacific (USP)">
+      <data key="d1">partnership for Seaweed Initiative</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="PIDF" target="Pacific Green Business Centre (PGBC)">
+      <data key="d1">partnership for Seaweed Initiative</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Pacific Green Business Centre (PGBC)" target="Seaweed Initiative">
+      <data key="d1">promotes inclusion in blue carbon calculations and potential for tradable carbon credits</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Commonwealth Blue Charter" target="Mangrove Restoration Action Group">
+      <data key="d1">championed by Sri Lanka for mangrove conservation and sustainable utilisation</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Sri Lanka" target="Mangrove Restoration Action Group">
+      <data key="d1">champion of Action Group</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Silvestrum Climate Associates" target="BLUE Marine Foundation">
+      <data key="d1">partner in Seascape Carbon Initiative</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Silvestrum Climate Associates" target="Blue Carbon Initiative">
+      <data key="d1">partner in Seascape Carbon Initiative</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Silvestrum Climate Associates" target="Oceans 2050">
+      <data key="d1">partner in Seascape Carbon Initiative</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Silvestrum Climate Associates" target="BCI">
+      <data key="d1">partner in Seascape Carbon Initiative</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Blue Ventures" target="local communities in Madagascar">
+      <data key="d1">empowering communities for mangrove conservation</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Blue Ventures" target="Plan Vivo">
+      <data key="d1">registration of Tahiry Honko project for carbon credit sales</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Tahiry Honko project" target="local communities in Madagascar">
+      <data key="d1">providing income through carbon credit sales for conservation efforts</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="South Pole" target="Colombia">
+      <data key="d1">provided technical support for project</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Netflix" target="Blue Carbon Buyers Alliance">
+      <data key="d1">founding member</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Salesforce" target="Blue Carbon Buyers Alliance">
+      <data key="d1">founding member</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Disney" target="Blue Carbon Buyers Alliance">
+      <data key="d1">founding member</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Microsoft" target="Blue Carbon Buyers Alliance">
+      <data key="d1">founding member</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Apple" target="Blue Carbon Buyers Alliance">
+      <data key="d1">founding member</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Google" target="Blue Carbon Buyers Alliance">
+      <data key="d1">founding member</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Amazon" target="Blue Carbon Buyers Alliance">
+      <data key="d1">founding member</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Workday" target="Blue Carbon Buyers Alliance">
+      <data key="d1">founding member</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Luxemburg" target="BNCFF">
+      <data key="d1">funder</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="BNCFF" target="Blue natural capital projects">
+      <data key="d1">provider of support for development</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="1t.org" target="Friends of Ocean Action">
+      <data key="d1">collaborator</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Non-profit organizations" target="Friends of Ocean Action">
+      <data key="d1">provider of support</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="IPBC" target="government agencies">
+      <data key="d1">collaboration and knowledge sharing</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="IPBC" target="non-governmental organizations">
+      <data key="d1">collaboration and knowledge sharing</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="IPBC" target="intergovernmental organizations">
+      <data key="d1">collaboration and knowledge sharing</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="IPBC" target="research institutions">
+      <data key="d1">collaboration and knowledge sharing</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="CSIRO" target="IORA Indian Ocean Blue Carbon Hub">
+      <data key="d1">secretariat host</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="UNFCCC" target="IPBC">
+      <data key="d1">launch platform</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="BCI" target="International Blue Carbon Scientific Working Group">
+      <data key="d1">works through</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="BCI" target="International Blue Carbon Policy Working Group">
+      <data key="d1">works through</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="BCI" target="Oceans 2050">
+      <data key="d1">partner in Seascape Carbon Initiative</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="Gallifrey Foundation" target="Blue carbon projects">
+      <data key="d1">supports development of</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="The Ocean Foundation" target="Individual donors">
+      <data key="d1">provides carbon offsets to</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="The Ocean Foundation" target="Foundations">
+      <data key="d1">provides carbon offsets to</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="The Ocean Foundation" target="Corporations">
+      <data key="d1">provides carbon offsets to</data>
+      <data key="d3">project</data>
+    </edge>
+    <edge source="The Ocean Foundation" target="Events">
+      <data key="d1">provides carbon offsets to</data>
+      <data key="d3">project</data>
+    </edge>
+  </graph>
+</graphml>

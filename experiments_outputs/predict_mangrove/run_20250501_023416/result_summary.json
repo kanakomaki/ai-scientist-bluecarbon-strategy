@@ -1,0 +1,16 @@
+{
+  "figures": [
+    {
+      "filename": "plotNVDIBand.png",
+      "summary": "The `plotNVDIBand` function takes in satellite imagery data as input, specifically a 2D array representing the Normalized Difference Vegetation Index (NDVI) band, which is a measure of vegetation health and density. The function generates a visual representation of the NDVI band using a heatmap, where the color map indicates the level of vegetation presence, ranging from -1 (no vegetation) to 1 (high vegetation). In the context of mangrove analysis, this function serves as a tool for visualizing and predicting mangrove presence, with the output heatmap helping researchers to identify areas with high vegetation density, which can be indicative of mangrove ecosystems."
+    },
+    {
+      "filename": "plotMangroveBand.png",
+      "summary": "The `plotMangroveBand` function takes in satellite imagery data as input and generates a visual representation of the mangrove presence using a discrete color map. The output is a plot that highlights the distribution and extent of mangroves in the input data, with the image saved to a specified output path if provided. This function serves as a visualization tool to help researchers and analysts identify and understand the spatial patterns of mangrove presence from satellite imagery, facilitating further analysis and prediction of mangrove ecosystems."
+    },
+    {
+      "filename": "plotNVDIBand.png",
+      "summary": "The `plotDifference` function takes in two types of input data: `labels_data` (past mangrove presence) and `predicted_data` (predicted mangrove presence), and generates an output image that visualizes the difference between the two. The output image represents the changes in mangrove presence, with different values indicating growth (predicted mangrove presence where none existed before), loss (predicted absence where mangroves previously existed), or no change. This function serves the purpose of evaluating the accuracy of mangrove presence predictions from satellite imagery, allowing researchers to identify areas of false positives or false negatives and refine their predictive models."
+    }
+  ]
+}

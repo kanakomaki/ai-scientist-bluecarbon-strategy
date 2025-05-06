@@ -1,0 +1,24 @@
+-----Please answer the following questions about your SME client's situation:------------
+1. Do you have support from Japanese government? (yes/no): 2. Do you intend to collaborate with NGOs? (yes/no): 3. Will you seek funding from GCF or UNEP? (yes/no): 4. Will you need verification partners? (yes/no): ['NGO', 'Green Climate Fund (GCF)', 'UNEP', 'Verifier']
+SME's edges:
+SME → Ministry of the Environment of Japan: {'relation': 'supported by'}
+SME → Green Climate Fund (GCF): {'relation': 'wishes to connect to'}
+SME → UNEP: {'relation': 'wishes to connect to'}
+Using OpenRouter API for meta-llama/llama-3.3-70b-instruct
+Strategy recommendation saved to experiments_outputs/graph_strategy/run_20250506_132004/result_summary.md
+- SME → Ministry of the Environment of Japan → Supporting Organization → Project Proponent → Indigenous Peoples → Gold Standard (length: 5)
+- SME → UNEP → Verra (length: 2)
+- SME → J-Blue: No path found
+- SME → Ministry of the Environment of Japan → JCM (length: 2)
+- Verra: 0.195
+- JCM: 0.070
+- Project Proponent: 0.065
+- Gold Standard: 0.060
+- IUCN: 0.050
+- Blue Carbon Buyers Alliance: 0.050
+- Activity: 0.045
+
+
+STDERR:
+/home/kana/psnl/sakana/prob01/AI-Scientist-v2/ai_scientist/templates/graph_strategy/experiment.py:129: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  plt.tight_layout()

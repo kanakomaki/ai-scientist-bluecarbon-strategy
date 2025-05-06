@@ -1,0 +1,19 @@
+[
+    {
+        "Name": "mangrove_blue_carbon",
+        "Title": "Mangrove Blue Carbon Credits for Japanese SMEs: A Strategic Plan",
+        "Short Hypothesis": "Japanese SMEs can effectively utilize mangroves in the Philippines for Blue Carbon credits, contributing to climate change mitigation and sustainable development, by developing a strategic plan that incorporates stakeholder mapping, literature review on monitoring methods, and preliminary data analysis using open tools.",
+        "Related Work": "The proposal builds on existing research on blue carbon initiatives and payment for ecosystem service programs, while addressing the lack of functioning projects supported by carbon finance and the need for policies and frameworks to achieve this.",
+        "Abstract": "This proposal outlines a strategic plan for Japanese SMEs to utilize mangroves in the Philippines for Blue Carbon credits, incorporating stakeholder mapping, literature review on monitoring methods, and preliminary data analysis using open tools. The plan aims to contribute to climate change mitigation and sustainable development, while addressing the constraints of limited budget and lack of experience in international certification and administrative procedures.",
+        "Experiments": [
+            "Conduct stakeholder mapping to identify key players and their roles in the Blue Carbon credit market",
+            "Review literature on monitoring methods for mangrove ecosystems and Blue Carbon credits",
+            "Analyze preliminary data using open tools, such as Google Earth Engine, to assess the potential for mangrove restoration and conservation in the Philippines"
+        ],
+        "Risk Factors and Limitations": [
+            "Limited budget and lack of experience in international certification and administrative procedures",
+            "Complexity of stakeholder engagement and coordination",
+            "Uncertainty in carbon credit markets and pricing"
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+{
+  "typhoon_analysis": {
+    "figures": [
+      {
+        "filename": "max_wind_heatmap1.png",
+        "summary": "This map, named `max_wind_heatmap`, is generated using historical typhoon track data and utilizes spatial interpolation to estimate wind speeds at specific grid points around the Cebu area. The output map displays the maximum wind speed, typhoon passage count, and impact count within a 500km radius, providing a visual representation of the region's vulnerability to typhoon-related disasters. By analyzing these maps, researchers and disaster management teams can identify high-risk areas and develop targeted strategies to mitigate the impact of typhoons, ultimately serving the purpose of reducing damage and loss of life in the event of a typhoon."
+      },
+      {
+        "filename": "typhoon_passage_count.png",
+        "summary": "The `typhoon_passage_count` map is generated using historical typhoon track data and wind speed information, which are inputted into a spatial analysis framework to produce a visual representation of the frequency of typhoon passages in a specific region, in this case, around Cebu. The output map displays the count of typhoon passages at each grid point, with higher counts indicating areas more prone to typhoon landfalls. This map serves as a valuable tool in typhoon disaster analysis, allowing researchers and policymakers to identify high-risk areas and inform mitigation strategies, evacuation planning, and emergency response efforts."
+      },
+      {
+        "filename": "typhoon_impact_500km_count.png",
+        "summary": "This map, titled `typhoon_impact_500km_count`, utilizes historical typhoon track data and wind speed information as input to generate a visualization of the frequency of typhoon impacts within a 500km radius around the Cebu area. The output represents the count of typhoon passages within this distance threshold, providing insight into the areas most prone to typhoon-related disasters. This map serves as a valuable tool in typhoon disaster analysis, enabling researchers and stakeholders to identify high-risk zones and inform strategies for disaster preparedness, mitigation, and response in the region."
+      }
+    ]
+  },
+  "predict_mangrove": {
+    "figures": [
+      {
+        "filename": "plotNVDIBand.png",
+        "summary": "The `plotNVDIBand` function takes in satellite imagery data as input, specifically a 2D array representing the Normalized Difference Vegetation Index (NDVI) band, which is a measure of vegetation health and density. The function generates a visual representation of the NDVI band using a heatmap, where the color map indicates the level of vegetation presence, ranging from -1 (no vegetation) to 1 (high vegetation). In the context of mangrove analysis, this function serves as a tool for visualizing and predicting mangrove presence, with the output heatmap helping researchers to identify areas with high vegetation density, which can be indicative of mangrove ecosystems."
+      },
+      {
+        "filename": "plotMangroveBand.png",
+        "summary": "The `plotMangroveBand` function takes in satellite imagery data as input and generates a visual representation of the mangrove presence using a discrete color map. The output is a plot that highlights the distribution and extent of mangroves in the input data, with the image saved to a specified output path if provided. This function serves as a visualization tool to help researchers and analysts identify and understand the spatial patterns of mangrove presence from satellite imagery, facilitating further analysis and prediction of mangrove ecosystems."
+      },
+      {
+        "filename": "plotNVDIBand.png",
+        "summary": "The `plotDifference` function takes in two types of input data: `labels_data` (past mangrove presence) and `predicted_data` (predicted mangrove presence), and generates an output image that visualizes the difference between the two. The output image represents the changes in mangrove presence, with different values indicating growth (predicted mangrove presence where none existed before), loss (predicted absence where mangroves previously existed), or no change. This function serves the purpose of evaluating the accuracy of mangrove presence predictions from satellite imagery, allowing researchers to identify areas of false positives or false negatives and refine their predictive models."
+      }
+    ]
+  }
+}

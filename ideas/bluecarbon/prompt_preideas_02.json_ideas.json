@@ -1,0 +1,36 @@
+[
+    {
+        "Name": "mangrove_blue_carbon",
+        "Title": "Supporting Japanese SMEs in Generating Blue Carbon Credits through Mangrove Ecosystems in the Philippines",
+        "Short Hypothesis": "Mangrove ecosystems in the Philippines can be a viable source of blue carbon credits for Japanese SMEs, and the development of a PES program and blue carbon accounting model can help overcome the challenges associated with implementing such projects.",
+        "Related Work": "The literature search results highlight the potential of mangrove ecosystems for blue carbon credits and the challenges associated with implementing such projects. The development of blue carbon accounting models, such as the BlueCAM used in Australia's voluntary carbon market scheme, can help estimate abatement from carbon and greenhouse gas sources and sinks.",
+        "Abstract": "This proposal aims to support Japanese SMEs in generating blue carbon credits through mangrove ecosystems in the Philippines. We will develop a PES program and blue carbon accounting model to overcome the challenges associated with implementing such projects. Our approach will integrate institutional and scientific methods to create a feasible and strategic implementation pathway.",
+        "Experiments": [
+            "Develop a PES program for mangrove ecosystems in the Philippines",
+            "Create a blue carbon accounting model to estimate abatement from carbon and greenhouse gas sources and sinks",
+            "Conduct a pilot project to test the feasibility of the PES program and blue carbon accounting model"
+        ],
+        "Risk Factors and Limitations": [
+            "Scientific uncertainties associated with blue carbon sequestration",
+            "Regulatory challenges and the need for creating enabling conditions for private sector investment",
+            "Limited experience with international certification processes and bureaucratic procedures"
+        ]
+    },
+    {
+        "Name": "blue_carbon_platform",
+        "Title": "Community-Led, Technology-Enabled Platform for Blue Carbon Credit Generation",
+        "Short Hypothesis": "A community-led, technology-enabled platform can effectively generate blue carbon credits from mangrove ecosystems in the Philippines, while promoting sustainable livelihoods and environmental conservation in local communities.",
+        "Related Work": "Recent advances in remote sensing and machine learning have improved the quantification of blue carbon stocks and their dynamics. However, there is a need for a community-led, technology-enabled platform that can effectively generate blue carbon credits while promoting sustainable livelihoods and environmental conservation.",
+        "Abstract": "This proposal aims to develop a community-led, technology-enabled platform for blue carbon credit generation, leveraging machine learning and remote sensing technologies to enhance the monitoring and validation of blue carbon credits. The platform will be designed to promote sustainable livelihoods and environmental conservation in local communities, while supporting Japanese SMEs in generating blue carbon credits.",
+        "Experiments": [
+            "Develop a machine learning-based model to predict blue carbon stocks and their dynamics in mangrove ecosystems",
+            "Design a community-led, technology-enabled platform for blue carbon credit generation, incorporating the machine learning model and remote sensing technologies",
+            "Conduct a pilot project to test the feasibility and effectiveness of the platform in generating blue carbon credits and promoting sustainable livelihoods and environmental conservation"
+        ],
+        "Risk Factors and Limitations": [
+            "Scientific uncertainties associated with blue carbon sequestration",
+            "Regulatory challenges and the need for creating enabling conditions for private sector investment",
+            "Limited experience with international certification processes and bureaucratic procedures"
+        ]
+    }
+]

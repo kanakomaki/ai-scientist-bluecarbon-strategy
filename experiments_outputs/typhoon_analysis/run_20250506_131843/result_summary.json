@@ -1,0 +1,16 @@
+{
+  "figures": [
+    {
+      "filename": "max_wind_heatmap1.png",
+      "summary": "This map, referred to as `max_wind_heatmap`, utilizes historical typhoon track data and wind speed information to generate a visual representation of maximum wind speeds and typhoon passage counts around the Cebu area. The output provides a spatial distribution of wind speeds and typhoon frequencies, allowing researchers to identify areas of high risk and potential impact from typhoons. By analyzing these maps, disaster analysts and policymakers can better understand the likelihood and potential consequences of typhoon landfalls, ultimately informing evacuation plans, infrastructure development, and emergency response strategies to mitigate the effects of typhoon disasters."
+    },
+    {
+      "filename": "typhoon_passage_count.png",
+      "summary": "The `typhoon_passage_count` map is generated using historical typhoon track data and utilizes a grid system to count the number of typhoons that have passed through each grid point around the Cebu area. The output represents the frequency of typhoon landfalls or passages, with higher counts indicating areas more prone to typhoon activity. This map serves as a valuable tool in typhoon disaster analysis, helping researchers and policymakers identify high-risk areas and inform evacuation plans, infrastructure development, and emergency response strategies to mitigate the impact of future typhoons."
+    },
+    {
+      "filename": "typhoon_impact_500km_count.png",
+      "summary": "The `typhoon_impact_500km_count` map is generated using historical wind speed data and typhoon track information, which are used to calculate the number of times a typhoon has passed within 500km of each grid point in the Cebu area. The output map displays the count of typhoon impacts within this 500km radius, providing a visual representation of the region's typhoon exposure and potential disaster risk. This map serves as a valuable tool for disaster analysis and planning, helping researchers and policymakers understand the likelihood and potential severity of typhoon-related damage in the region, and informing strategies for mitigation and preparedness."
+    }
+  ]
+}

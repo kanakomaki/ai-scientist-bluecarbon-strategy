@@ -1,0 +1,16 @@
+{
+  "figures": [
+    {
+      "filename": "plotNVDIBand.png",
+      "summary": "The `plotNVDIBand` function takes satellite imagery data as input, specifically a 2D array representing the Normalized Vegetation Difference Index (NDVI) band, which is a measure of vegetation health and density. The function generates a visual representation of the NDVI data, with the output plot displaying areas of high vegetation density (mangrove presence) in green and areas of low vegetation density in yellow or red. This visualization serves as a tool for predicting mangrove presence and analyzing the distribution of mangrove ecosystems in satellite imagery."
+    },
+    {
+      "filename": "plotMangroveBand.png",
+      "summary": "The `plotMangroveBand` function takes in satellite imagery data as input and uses it to generate a visual representation of mangrove presence. The output is a plot that displays the input data using a discrete color map, with the resulting image potentially saved to a specified output path. This function serves as a visualization tool in mangrove analysis, allowing researchers to identify and interpret patterns in the satellite imagery data that may indicate the presence of mangroves."
+    },
+    {
+      "filename": "plotNVDIBand.png",
+      "summary": "The `plotDifference` function takes in two input arrays, `labels_data` and `predicted_data`, which represent past mangrove presence (labeled data) and predicted mangrove presence (from satellite imagery), respectively. The function calculates and visualizes the difference between these two arrays, with the output indicating areas of mangrove growth (false positives), loss (false negatives), and consistency between predictions and past data. This visualization serves the purpose of evaluating the accuracy of mangrove presence predictions and identifying areas of change, which is crucial in monitoring and analyzing mangrove ecosystems."
+    }
+  ]
+}

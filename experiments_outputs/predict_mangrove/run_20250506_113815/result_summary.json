@@ -1,0 +1,16 @@
+{
+  "figures": [
+    {
+      "filename": "plotNVDIBand.png",
+      "summary": "The `plotNVDIBand` function takes in satellite imagery data, specifically a Normalized Difference Vegetation Index (NDVI) band, and generates a visual representation of it using a heatmap. The output is an image that displays the NDVI values, ranging from -1 to 1, with a colorbar indicating the intensity of vegetation, which can be used to predict mangrove presence. In the context of mangrove analysis, this function serves as a preliminary step to identify areas with high vegetation density, potentially indicating mangrove ecosystems, and can be used for further analysis or validation of predictive models."
+    },
+    {
+      "filename": "plotMangroveBand.png",
+      "summary": "The `plotMangroveBand` function takes in satellite imagery data as input and visualizes it using a discrete color map, allowing for the identification of mangrove presence based on specific spectral bands. The output is an image that highlights the distribution and extent of mangroves, which can be saved to a file if a output path is provided. This function serves as a key component in mangrove analysis, enabling researchers to interpret and understand the spatial patterns and characteristics of mangrove ecosystems from satellite imagery."
+    },
+    {
+      "filename": "plotNVDIBand.png",
+      "summary": "The `plotDifference` function takes in two inputs: `labels_data` representing past mangrove presence and `predicted_data` representing predicted mangrove presence, both likely derived from satellite imagery. The function calculates the difference between these two inputs and generates an image displaying areas of mangrove growth (false positives), loss (false negatives), and consistency between past and predicted presence. This output serves to visualize and assess the accuracy of mangrove presence predictions, allowing researchers to evaluate the effectiveness of their predictive models in the context of mangrove analysis and monitoring."
+    }
+  ]
+}

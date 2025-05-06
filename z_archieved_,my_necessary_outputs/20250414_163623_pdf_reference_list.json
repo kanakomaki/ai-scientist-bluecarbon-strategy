@@ -1,0 +1,62 @@
+{
+  "Verra": [
+    {
+      "title": "Verra Guide to the VCS Program",
+      "url": "https://verra.org/wp-content/uploads/2022/03/Guide-to-the-VCS-Program.pdf",
+      "issuer": "Verra",
+      "expected_content": "VCS認証の詳細なガイドライン"
+    },
+    {
+      "title": "VCS Program Rules",
+      "url": "https://verra.org/wp-content/uploads/2022/03/VCS-Program-Rules.pdf",
+      "issuer": "Verra",
+      "expected_content": "VCS認証のルールと要件"
+    },
+    {
+      "title": "VCS Project Development Guidelines",
+      "url": "https://verra.org/wp-content/uploads/2022/03/VCS-Project-Development-Guidelines.pdf",
+      "issuer": "Verra",
+      "expected_content": "VCSプロジェクト開発のガイドライン"
+    }
+  ],
+  "REDD++": [
+    {
+      "title": "UN-REDD Programme Guidelines",
+      "url": "https://www.un-redd.org/resource/un-redd-programme-guidelines",
+      "issuer": "UN-REDD Programme",
+      "expected_content": "REDD++プログラムのガイドライン"
+    },
+    {
+      "title": "REDD+ Technical Guidance",
+      "url": "https://www.un-redd.org/resource/redd-technical-guidance",
+      "issuer": "UN-REDD Programme",
+      "expected_content": "REDD++技術ガイド"
+    },
+    {
+      "title": "The Little REDD+ Book",
+      "url": "https://www.un-redd.org/resource/the-little-redd-book",
+      "issuer": "UN-REDD Programme",
+      "expected_content": "REDD++の概要と実施方法"
+    }
+  ],
+  "J-Blue": [
+    {
+      "title": "J-Blueクレジット制度の概要",
+      "url": "https://www.meti.go.jp/policy/energy_environment/global_warming/bluecarbon/j-blue.pdf",
+      "issuer": "経済産業省",
+      "expected_content": "J-Blueクレジット制度の概要"
+    },
+    {
+      "title": "J-Blueクレジット認証マニュアル",
+      "url": "https://www.meti.go.jp/policy/energy_environment/global_warming/bluecarbon/j-blue_manual.pdf",
+      "issuer": "経済産業省",
+      "expected_content": "J-Blueクレジット認証の手続き"
+    },
+    {
+      "title": "J-Blueクレジット制度の運用ガイドライン",
+      "url": "https://www.meti.go.jp/policy/energy_environment/global_warming/bluecarbon/j-blue_guide.pdf",
+      "issuer": "経済産業省",
+      "expected_content": "J-Blueクレジット制度の運用方法"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+    "project_title": "Strategic Implementation Plan: Blue Carbon Credit Generation through Mangrove Restoration in Coastal Philippines",
+    "task_description": {
+      "overall_goal": "This proof-of-concept project aims to support Japanese small- and medium-sized enterprises (SMEs) in generating blue carbon credits by leveraging mangrove ecosystems in coastal regions of the Philippines. The project integrates both institutional and scientific approaches to design a feasible and strategic implementation pathway.",
+      
+      "part_1_social": {
+        "goal": "Institutions & Scheme Strategy",
+        "subtasks": [
+          "Review and selection of applicable certification schemes (e.g., J-Blue, REDD++, voluntary systems), with justification based on institutional requirements",
+          "Stakeholder mapping of key players such as certification bodies, Japanese regulatory agencies, local governments, and international organizations"
+        ]
+      },
+      
+      "part_2_scientific": {
+        "goal": "Scientific Monitoring Strategy",
+        "subtasks": [
+          "Literature review on methodologies for estimating carbon sequestration in mangroves, modeling typhoon-related natural disasters, and the use of remote sensing technologies",
+          "Preliminary data acquisition and analysis using tools like Google Earth Engine to visualize spatiotemporal variations in carbon stocks"
+        ]
+      },
+      
+      "part_3_integration": {
+        "goal": "Integrated Execution Flow",
+        "subtasks": [
+          "Design of a procedural flow for practical implementation, incorporating both institutional requirements and scientific validation steps. This includes planning the application process, necessary documentation, and stakeholder coordination"
+        ]
+      },
+      
+      "constraints": [
+        "SME-scale budget (to be supplemented by small grants)",
+        "Limited experience with international certification processes and bureaucratic procedures",
+        "Initial stage of relationship-building with local governments and communities in the Philippines"
+      ],
+      
+      "audience_type": "PoC planners, climate tech consultants, and environmental NGOs",
+      "preferred_output_format": "Key point summaries by component + references"
+    }
+  }
+  

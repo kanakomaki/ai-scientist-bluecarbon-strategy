@@ -1,0 +1,16 @@
+{
+  "figures": [
+    {
+      "filename": "max_wind_heatmap1.png",
+      "summary": "This map, referred to as `max_wind_heatmap`, utilizes historical typhoon track data and wind speed information to generate a visual representation of the maximum wind speeds and typhoon passage counts around the Cebu area. The output provides a spatial distribution of wind speeds and typhoon frequencies, allowing researchers to identify areas of high risk and potential impact from typhoons. By analyzing these maps, disaster managers and policymakers can better understand the likelihood and potential consequences of typhoon landfalls, ultimately informing evacuation plans, infrastructure development, and other mitigation strategies to reduce the risk of typhoon-related disasters."
+    },
+    {
+      "filename": "typhoon_passage_count.png",
+      "summary": "This map, titled \"typhoon_passage_count\", utilizes historical typhoon track data and grid point information to visualize the frequency of typhoon passages around the Cebu area. The output represents the count of typhoon landfalls or passages at each grid point, providing insight into the areas most prone to typhoon activity. In the context of typhoon disaster analysis, this map serves as a valuable tool for identifying high-risk zones, informing evacuation plans, and prioritizing disaster mitigation efforts, ultimately contributing to more effective typhoon disaster management and risk reduction strategies."
+    },
+    {
+      "filename": "typhoon_impact_500km_count.png",
+      "summary": "The `typhoon_impact_500km_count` map is generated using historical typhoon track data and wind speed information, which are used to calculate the number of times a typhoon has passed within 500km of each grid point in the Cebu area. The output represents the typhoon impact count, where higher values indicate a greater frequency of typhoon passages, providing insights into areas that are more prone to typhoon-related disasters. This map serves as a valuable tool for disaster analysis and risk assessment, helping researchers and policymakers identify vulnerable regions and inform mitigation strategies to minimize the impact of future typhoons."
+    }
+  ]
+}

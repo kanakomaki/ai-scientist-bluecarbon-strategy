@@ -1,0 +1,16 @@
+{
+  "figures": [
+    {
+      "filename": "plotNVDIBand.png",
+      "summary": "The `plotNVDIBand` function takes satellite imagery data as input and generates a visual representation of the Normalized Difference Vegetation Index (NDVI) band, which is a measure of vegetation health and density. The output is a color-coded image where pixels with high NDVI values (closer to 1) indicate healthy vegetation, such as mangroves, and pixels with low values (closer to -1) indicate sparse or no vegetation. In the context of mangrove analysis, this function serves to provide a quick visual assessment of mangrove presence and health, potentially aiding in the identification of areas with dense mangrove cover."
+    },
+    {
+      "filename": "plotMangroveBand.png",
+      "summary": "The `plotMangroveBand` function takes in satellite imagery data as input and generates a visual representation of the mangrove presence using a discrete color map. The output is a plotted image that highlights the presence of mangroves, with the color intensity corresponding to the likelihood or density of mangrove vegetation. This function serves as a tool for mangrove analysis, allowing researchers to visualize and interpret the spatial distribution of mangroves from satellite imagery, which can inform conservation efforts, land use planning, and environmental monitoring."
+    },
+    {
+      "filename": "plotNVDIBand.png",
+      "summary": "The `plotDifference` function takes in two types of input data: `labels_data` representing past mangrove presence and `predicted_data` representing predicted mangrove presence. The function calculates the difference between these two datasets and produces an image plot where the output values represent different scenarios, such as growth/false positives (predicted mangrove, but not in the past) and loss/false negatives (not predicted mangrove, but present in the past). This function serves the purpose of visually analyzing the accuracy of mangrove presence predictions by highlighting areas of change, growth, and loss, which is crucial in understanding the dynamics of mangrove ecosystems from satellite imagery."
+    }
+  ]
+}

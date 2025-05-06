@@ -1,0 +1,93 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Temporary LaTeX files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# Editor and system files
+.DS_Store
+*.swp
+*.swo
+*.bak
+*~
+
+# OS temp files
+Thumbs.db
+
+# Compiled or temporary experiment outputs
+*/latex/template.pdf
+*/latex/*.pdf
+*/latex/*.log
+*/latex/*.aux
+*/latex/*.bbl
+*/latex/*.blg
+*/latex/*.out
+*/latex/*.synctex.gz
+*/latex/*_temp_compile_*/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Logs and debug
+*.log
+*.err
+*.tmp
+*.pid
+
+# Cache
+.cache/
+__cache__/
+*.tmp
+
+# API keys or secrets (if you ever add any)
+.env
+.env.*
+
+# Pytest or test coverage files
+.coverage
+htmlcov/
+*.cover
+.cache
+nosetests.xml
+coverage.xml
+*.pytest_cache/
+
+# VSCode or PyCharm specific
+.vscode/
+.idea/
+
+# ignore folders
+experiments/
+z_archieved/
+z_archieved_my_necessary_outputs/
+mangrove_env.yml
+requirements.txt
+experiments_outputs/combined_20250501_063320/
+experiments_outputs/combined_20250506_135413/
+external_models/mangroves_deep_learning/
+external_models/Typhoon-Impact-based-forecasting-model/
+ideas/Arc*/
+pre_ideas/bluecarbon/Old/
+
+ai_scientist/experiments/
+ai_scientist/fewshot_examples/
+
+__PDF_outputs/
+downloads/

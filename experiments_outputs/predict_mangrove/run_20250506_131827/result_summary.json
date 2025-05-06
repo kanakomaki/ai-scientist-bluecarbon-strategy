@@ -1,0 +1,16 @@
+{
+  "figures": [
+    {
+      "filename": "plotNVDIBand.png",
+      "summary": "The `plotNVDIBand` function takes satellite imagery data as input, specifically a band related to the Normalized Difference Vegetation Index (NDVI), which is a measure of vegetation health and density. The function generates an image plot of the NDVI data, with a color map indicating the intensity of vegetation, and optionally saves the plot to a specified output path. In the context of mangrove analysis, this function serves to visually represent the distribution and density of mangrove vegetation, allowing researchers to identify areas of high mangrove presence and potentially predict its occurrence from satellite imagery."
+    },
+    {
+      "filename": "plotMangroveBand.png",
+      "summary": "The `plotMangroveBand` function takes in satellite imagery data as input and uses it to generate a visual representation of mangrove presence, utilizing a discrete color map to highlight distinct features. The output is a plot that illustrates the distribution and characteristics of mangroves in the satellite image, which can be saved to a file if a output path is specified. This function serves as a tool for visualizing and interpreting satellite data, aiding researchers like myself in identifying and analyzing mangrove ecosystems, and potentially informing predictions of mangrove presence and health."
+    },
+    {
+      "filename": "plotNVDIBand.png",
+      "summary": "The `plotDifference` function takes in two input arrays, `labels_data` and `predicted_data`, which represent past and predicted mangrove presence, respectively. The function calculates the difference between these two arrays and generates an image plot, where the output values indicate areas of mangrove growth/false positives (value 2), stability (value 1), and loss/false negatives (value 0). This plot serves the purpose of visualizing the accuracy of mangrove presence predictions, allowing researchers to identify areas of change and evaluate the performance of their predictive models in the context of mangrove analysis."
+    }
+  ]
+}

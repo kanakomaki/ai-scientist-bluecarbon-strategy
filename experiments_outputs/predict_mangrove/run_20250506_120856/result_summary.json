@@ -1,0 +1,16 @@
+{
+  "figures": [
+    {
+      "filename": "plotNVDIBand.png",
+      "summary": "The `plotNVDIBand` function takes in satellite imagery data as input, specifically a Normalized Difference Vegetation Index (NDVI) band, which is a measure of vegetation health and density. The function generates a color-mapped image of the input data, with the output image representing the distribution and density of vegetation, potentially indicating the presence of mangroves. In the context of mangrove analysis, this function serves as a visualization tool to help researchers identify areas with high vegetation density, which can be used to predict mangrove presence and inform further analysis or field validation."
+    },
+    {
+      "filename": "plotMangroveBand.png",
+      "summary": "The `plotMangroveBand` function takes satellite imagery data as input and produces a visual representation of the data using a discrete color map. The output is a plot that likely represents the presence or characteristics of mangroves, with the color intensity corresponding to the intensity of mangrove presence or a specific spectral band. This function serves the purpose of facilitating the visual analysis and interpretation of satellite imagery data in the context of mangrove research, allowing researchers to identify patterns and trends in mangrove distribution and health."
+    },
+    {
+      "filename": "plotNVDIBand.png",
+      "summary": "This function, `plotDifference`, takes in two types of input data: `labels_data` representing past mangrove presence and `predicted_data` representing predicted mangrove presence. The function calculates the difference between these two datasets and generates an image that highlights areas of mangrove growth (false positives), loss (false negatives), and consistent presence/absence. The purpose of this function is to visualize and analyze the accuracy of mangrove presence predictions from satellite imagery, allowing researchers to identify areas of change and evaluate the effectiveness of their predictive models."
+    }
+  ]
+}
