@@ -91,3 +91,7 @@ ai_scientist/fewshot_examples/
 
 __PDF_outputs/
 downloads/
+
+# Ignore large files
+external_models/MangroveClassification/SatelliteImages/*.tif
+external_models/MangroveClassification/*.sh
