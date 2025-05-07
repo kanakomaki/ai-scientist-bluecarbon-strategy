@@ -3,10 +3,9 @@
 ## Overview
 This repository presents a Proof-of-Concept (PoC) AI system designed to support **blue carbon credit strategy** planning using mangrove ecosystems in the Philippines. It was developed to integrate scientific experiments, institutional reasoning, and LLM-based report writing.
 
-This PoC represents an intersection of **AI, ocean science, and policy—demonstrating** how large language models can support environmentally aligned strategic planning, using **AI Scientist's** strong capability in scientific logic making and writing. 
+This PoC represents an intersection of **"AI" x "Ocean Science" x "Policy"** demonstrating how LLMs can support environmentally aligned strategic planning, appying [AI Scientist-V2](https://github.com/SakanaAI/AI-Scientist-v2)'s strong capability in scientific logic making and writing. 
 
-
-## Main goal: 
+## Main goal setting: 
 Assist Japanese Small & Mid sized Enterprises in evaluating and initiating mangrove-based blue carbon projects by combining environmental analysis and social strategy using LLM agents.
 
 ## Key Features
@@ -23,6 +22,7 @@ Assist Japanese Small & Mid sized Enterprises in evaluating and initiating mangr
 
 - Agent-like modular design with full reproducibility
 
+![An example of the writting of this work](writeup_example.png)
 
 ## Folder Structure
 
@@ -80,9 +80,9 @@ Folder Structure
 
 - VLM: openai/gpt-4-vision-nano for image interpretation
 
-- CNN: MangroveClassification (external, TensorFlow-based)
+- External models:  [MangroveClassification repository](https://github.com/nkinnaird/MangroveClassification), [TYPHOONTRACK2GRIDPOINT repository](https://github.com/rodekruis/TYPHOONTRACK2GRIDPOINT#)
 
 - GraphDB: NetworkX for stakeholder modeling
 
 ## Author
-Developed by Kanae Komaki (May 2025) based on Sakana AI's AI Scientist-V2
+Developed by Kanae Komaki (May 2025) based on [AI Scientist-V2 repository](https://github.com/SakanaAI/AI-Scientist-v2).

@@ -58,3 +58,9 @@ It is recommended to use the `conda` environment file that includes both Python 
 
 ```bash
 conda env create -f environment_full.yml
+```
+
+---
+
+## License and Credits
+Original code licensed under the terms of the [TYPHOONTRACK2GRIDPOINT repository](https://github.com/rodekruis/TYPHOONTRACK2GRIDPOINT#). Please refer to that repository for license details.
