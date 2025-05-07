@@ -31,8 +31,6 @@ Assist Japanese Small & Mid sized Enterprises in evaluating and initiating mangr
 
 ## Folder Structure
 
-Folder Structure
-
 ```
 ├── ai_scientist/                   main AI Scientist modules (modified)
 │   ├── templates/                      experimental templates (mangrove, typhoon, graph)
@@ -67,9 +65,8 @@ Folder Structure
 └── launch_aiscientist_KK.py       unified launcher for the entire pipeline
 ```
 
-
 ## How to Run
-
+<img src="schematic_flow.png" alt="Function flow" width="500">
 ### Set up conda environment
 As some external model requires dependency difficult libraries with venv and pip, I applied conda.
 ```python
@@ -85,20 +82,20 @@ conda activate mangrove
 
 ### Launch full PoC pipeline
 - python launch_aiscientist.py
-
-#### This will:
+```
+This will:
 - Generate ideas
 - Run all 3 experiments
 - Combine results into figures + summaries
 - Create a scientific PDF report via LLM + VLM
-
-
+```
 ## Output Example
 - Final LLM-written PDF: experiments_outputs/combined_*/template.pdf
 
 - Generated figures: combined_figures/
 
 - Descriptive summary: combined_summary.md
+
 
 
 ## Models Used
