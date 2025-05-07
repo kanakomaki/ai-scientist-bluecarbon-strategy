@@ -100,96 +100,96 @@ def merge_experiment_outputs(base_dir_list, combined_dir):
 
 def main(args):
 
-    # # === Step 1: Perform Ideation ===
-    # # This step needs a preliminary idea (client's needs and project goals) file to run perform_ideation_KK.py
-    # print("\n=== Step 1: Perform Ideation STARTED ===\n")
-    # # Create the LLM client
-    # client, client_model = create_client(args.model)
-    # # Set a Literature Search API & a prompt for the LLM
-    # tools_dict, system_prompt, idea_generation_prompt, idea_reflection_prompt = perform_ideation()    
-    # # set the base directory for preliminary ideas 
-    # base_dir = osp.join("pre_ideas/", args.project_name) 
-    # ideas = generate_ideas(
-    #     project_name=args.project_name,
-    #     base_dir=base_dir,
-    #     preliminary_ideas=args.preliminary_ideas,
-    #     client=client,
-    #     model=client_model,
-    #     skip_generation=args.skip_idea_generation,
-    #     max_num_generations=args.max_num_generations,
-    #     num_reflections=args.num_reflections,
-    #     tools_dict=tools_dict,
-    #     system_prompt=system_prompt,
-    #     idea_generation_prompt=idea_generation_prompt,
-    #     idea_reflection_prompt=idea_reflection_prompt,
-    # )
-    # print("=== Step 1: Perform Ideation COMPLETED ===\n")
+    # === Step 1: Perform Ideation ===
+    # This step needs a preliminary idea (client's needs and project goals) file to run perform_ideation_KK.py
+    print("\n=== Step 1: Perform Ideation STARTED ===\n")
+    # Create the LLM client
+    client, client_model = create_client(args.model)
+    # Set a Literature Search API & a prompt for the LLM
+    tools_dict, system_prompt, idea_generation_prompt, idea_reflection_prompt = perform_ideation()    
+    # set the base directory for preliminary ideas 
+    base_dir = osp.join("pre_ideas/", args.project_name) 
+    ideas = generate_ideas(
+        project_name=args.project_name,
+        base_dir=base_dir,
+        preliminary_ideas=args.preliminary_ideas,
+        client=client,
+        model=client_model,
+        skip_generation=args.skip_idea_generation,
+        max_num_generations=args.max_num_generations,
+        num_reflections=args.num_reflections,
+        tools_dict=tools_dict,
+        system_prompt=system_prompt,
+        idea_generation_prompt=idea_generation_prompt,
+        idea_reflection_prompt=idea_reflection_prompt,
+    )
+    print("=== Step 1: Perform Ideation COMPLETED ===\n")
 
 
-    # print("\n=== Step 2: Perform Experiments [Social DB] STARTED ===\n")
-    # #---- This step does literature reviews and creates "GraphDB" essential for the social experiments ----#
-    # #---- You can skip this step if you want to use the existing GraphDB or if you do not conduct "graph strategy" experiment in Step 3----#
-    # perform_experiments_socialDB(args)
-    # print("=== Step 2: Perform Experiments [Social DB] COMPLETED ===\n")
-
-
-
-
-    # print("\n=== Step 3: Perform Experiments [Social & Science] STARTED ===\n")
-    # #---- This step conducts some experiments from templates [currently 3 experiments settings] ----#
-    # #---- You can pick some of them or all of them ----#
-    # #---- The results will be comibed in the next step ----#
-    # scripts = {
-    #     "graph_strategy": {
-    #         "script": "ai_scientist/templates/graph_strategy/experiment.py",
-    #         "log": "experiments_outputs/graph_strategy/experiment_log.txt",
-    #         "input_text": "yes\nyes\nyes\nyes\n"  # CLI input for the script (some questions for the user)
-    #     },
-    #     "predict_mangrove": {
-    #         "script": "ai_scientist/templates/predict_mangrove/experiment.py",
-    #         "log": "experiments_outputs/predict_mangrove/experiment_log.txt",
-    #         "input_text": None
-    #     },
-    #     "typhoon_analysis": {
-    #         "script": "ai_scientist/templates/typhoon_analysis/experiment.py",
-    #         "log": "experiments_outputs/typhoon_analysis/experiment_log.txt",
-    #         "input_text": None
-    #     },
-    # }
-    # for name, config in scripts.items():
-    #     print(f"===== Step 3: ===== Running experiment: {name} =====")
-    #     perform_experiments_run_script(config["script"], config["log"], config["input_text"])
-    # print("=== Step 3: Perform Experiments [Social & Science] COMPLETED ===\n")
+    print("\n=== Step 2: Perform Experiments [Social DB] STARTED ===\n")
+    #---- This step does literature reviews and creates "GraphDB" essential for the social experiments ----#
+    #---- You can skip this step if you want to use the existing GraphDB or if you do not conduct "graph strategy" experiment in Step 3----#
+    perform_experiments_socialDB(args)
+    print("=== Step 2: Perform Experiments [Social DB] COMPLETED ===\n")
 
 
 
-    # print("\n === Step 4: Perform Combine [Social & Science Experiments Results] STARTED ===\n")
-    # # This step combines the results of the experiments into a single folder (original script)
-    # combine_results(args.base_dir_4)
-    # print("=== Step 4: Perform Combine [Social & Science Experiments Results] COMPLETED ===\n")
+
+    print("\n=== Step 3: Perform Experiments [Social & Science] STARTED ===\n")
+    #---- This step conducts some experiments from templates [currently 3 experiments settings] ----#
+    #---- You can pick some of them or all of them ----#
+    #---- The results will be comibed in the next step ----#
+    scripts = {
+        "graph_strategy": {
+            "script": "ai_scientist/templates/graph_strategy/experiment.py",
+            "log": "experiments_outputs/graph_strategy/experiment_log.txt",
+            "input_text": "yes\nyes\nyes\nyes\n"  # CLI input for the script (some questions for the user)
+        },
+        "predict_mangrove": {
+            "script": "ai_scientist/templates/predict_mangrove/experiment.py",
+            "log": "experiments_outputs/predict_mangrove/experiment_log.txt",
+            "input_text": None
+        },
+        "typhoon_analysis": {
+            "script": "ai_scientist/templates/typhoon_analysis/experiment.py",
+            "log": "experiments_outputs/typhoon_analysis/experiment_log.txt",
+            "input_text": None
+        },
+    }
+    for name, config in scripts.items():
+        print(f"===== Step 3: ===== Running experiment: {name} =====")
+        perform_experiments_run_script(config["script"], config["log"], config["input_text"])
+    print("=== Step 3: Perform Experiments [Social & Science] COMPLETED ===\n")
 
 
 
-    # print("\n=== Step 5: Perform Writeup STARTED ===\n")
-    # # This step generates a writeup of the experiments and ideas (modified script from AI-Scientist)
-    # if not args.skip_writeup:
-    #     writeup_success = False
-    #     for attempt in range(args.writeup_retries):
-    #         print(f"Writeup attempt {attempt+1} of {args.writeup_retries}")
-    #         writeup_success = perform_writeup(
-    #             exp_outputs_base_folder=args.exp_outputs_base_folder,
-    #             preliminary_ideas=args.preidea_dir,
-    #             idea_dir=args.idea_dir,
-    #             no_writing=False,
-    #             num_cite_rounds=20,
-    #             small_model="meta-llama/llama-3.3-70b-instruct",
-    #             big_model="anthropic/claude-3.5-sonnet",
-    #             n_writeup_reflections=5,
-    #             page_limit=10,
-    #         )
-    #     if not writeup_success:
-    #         print("Writeup process did not complete successfully after all retries.")
-    # print("\n=== Step 5: Perform Writeup COMPLETED ===\n")
+    print("\n === Step 4: Perform Combine [Social & Science Experiments Results] STARTED ===\n")
+    # This step combines the results of the experiments into a single folder (original script)
+    combine_results(args.base_dir_4)
+    print("=== Step 4: Perform Combine [Social & Science Experiments Results] COMPLETED ===\n")
+
+
+
+    print("\n=== Step 5: Perform Writeup STARTED ===\n")
+    # This step generates a writeup of the experiments and ideas (modified script from AI-Scientist)
+    if not args.skip_writeup:
+        writeup_success = False
+        for attempt in range(args.writeup_retries):
+            print(f"Writeup attempt {attempt+1} of {args.writeup_retries}")
+            writeup_success = perform_writeup(
+                exp_outputs_base_folder=args.exp_outputs_base_folder,
+                preliminary_ideas=args.preidea_dir,
+                idea_dir=args.idea_dir,
+                no_writing=False,
+                num_cite_rounds=20,
+                small_model="meta-llama/llama-3.3-70b-instruct",
+                big_model="anthropic/claude-3.5-sonnet",
+                n_writeup_reflections=5,
+                page_limit=10,
+            )
+        if not writeup_success:
+            print("Writeup process did not complete successfully after all retries.")
+    print("\n=== Step 5: Perform Writeup COMPLETED ===\n")
 
 
 
