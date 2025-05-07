@@ -1,4 +1,4 @@
-# **Blue Carbon Strategy - AI Scientist**
+# **🌍 Blue Carbon Strategy - AI Scientist**
 
 ## Overview
 This repository presents a Proof-of-Concept (PoC) AI system designed to support **blue carbon credit strategy** planning using mangrove ecosystems in the Philippines. It was developed to integrate scientific experiments, institutional reasoning, and LLM-based report writing.
@@ -25,6 +25,9 @@ Assist Japanese Small & Mid sized Enterprises in evaluating and initiating mangr
 ### Output example
 <img src="writeup_example.png" alt="An example of the writing of this work" width="500">
 
+- The main output PDFs are generated in experiments_outputs/combined_XXXXXX/
+- example: [20250507_105002.pdf](experiments_outputs/combined_20250501_063438/20250507_105002.pdf)
+
 ## Folder Structure
 
 Folder Structure
@@ -38,12 +41,13 @@ Folder Structure
 │   ├── predict_mangrove/          Mangrove image classification results
 │   ├── typhoon_analysis/          Typhoon gust duration mapping (from R)
 │   ├── graph_strategy/            Stakeholder analysis outputs (networkX)
-│   └── combined_*/                Combined summaries, figures, and writeup folder
+│   └── combined_*/                Combined summaries, figures, and  writeup folder
 ├── external_models/               MangroveClassification CNN model
 ├── environment.yml                Conda env for experiments (Python + R + GDAL)
 ├── README.md                      This file
 └── launch_aiscientist_KK.py          Unified launcher for the entire pipeline
 ```
+
 
 ## How to Run
 
