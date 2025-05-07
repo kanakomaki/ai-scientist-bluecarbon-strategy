@@ -1,4 +1,4 @@
-# **Mangrove Blue Carbon Strategy - AI Scientist**
+# **Blue Carbon Strategy - AI Scientist**
 
 ## Overview
 This repository presents a Proof-of-Concept (PoC) AI system designed to support **blue carbon credit strategy** planning using mangrove ecosystems in the Philippines. It was developed to integrate scientific experiments, institutional reasoning, and LLM-based report writing.
