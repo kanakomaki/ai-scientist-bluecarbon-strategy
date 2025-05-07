@@ -451,12 +451,13 @@ If you believe you are done, simply say: "I am done"."""
                 # save the final text
                 Path(writeup_file).write_text(final_text)
                 updated_latex_code = final_text  # update for next iteration
-                compile_latex(latex_folder, base_pdf_file + pdfname + f"_{compile_attempt}.pdf")
+                compile_latex(latex_folder, base_pdf_file + pdfname + f"_reflection_{compile_attempt}.pdf")
                 compile_attempt += 1
 
                 
                 if "I am done" in reflection_response:
                     print("LLM indicated it is done. Exiting loop.")
+                    compile_latex(latex_folder, base_pdf_file + pdfname + f"_final_{compile_attempt-1}.pdf")
                     break
             else:
                 # No LaTeX contained, but LLM said it's done
@@ -467,7 +468,8 @@ If you believe you are done, simply say: "I am done"."""
                     print(f"[Warning] No valid LaTeX found in reflection {i}. Re-attempting.")
                     #break
         # === Final compilation ===
-        return osp.exists(base_pdf_file + pdfname + f"_{compile_attempt-1}.pdf")
+        return osp.exists(osp.exists(base_pdf_file + pdfname + f"_final_{compile_attempt - 1}.pdf") or
+                osp.exists(base_pdf_file + pdfname + ".pdf"))
 
 
     except Exception:
@@ -494,7 +496,7 @@ if __name__ == "__main__":
                 idea_dir=idea_dir,
                 num_cite_rounds=num_cite_rounds,
                 small_model="meta-llama/llama-3.3-70b-instruct",
-                big_model="meta-llama/llama-3.3-70b-instruct",
+                big_model="anthropic/claude-3.5-sonnet",
                 n_writeup_reflections=n_writeup_reflections,
                 page_limit=page_limit,
                 )

@@ -22,7 +22,8 @@ Assist Japanese Small & Mid sized Enterprises in evaluating and initiating mangr
 
 - Agent-like modular design with full reproducibility
 
-![An example of the writting of this work](writeup_example.png)
+### Output example
+<img src="writeup_example.png" alt="An example of the writing of this work" width="500">
 
 ## Folder Structure
 
@@ -76,7 +77,7 @@ Folder Structure
 
 ## Models Used
 
-- LLM: meta-llama/llama-3.3-70b-instruct (via OpenRouter)
+- LLM: meta-llama/llama-3.3-70b-instruct for usual generation, anthropic/claude-3.5-sonnet for write-up (both via OpenRouter)
 
 - VLM: openai/gpt-4-vision-nano for image interpretation
 
@@ -85,4 +86,4 @@ Folder Structure
 - GraphDB: NetworkX for stakeholder modeling
 
 ## Author
-Developed by Kanae Komaki (May 2025) based on [AI Scientist-V2 repository](https://github.com/SakanaAI/AI-Scientist-v2).
+Developed by Kanae Komaki (May 2025) based on [AI Scientist-V2 repository](https://github.com/SakanaAI/AI-Scientist-v2). The author is specically interested in the science & social intersectional problem solving with AI. 

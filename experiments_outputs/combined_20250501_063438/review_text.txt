@@ -1,35 +1,36 @@
 {
-    "Summary": "This paper outlines a strategic implementation plan for Japanese SMEs to generate blue carbon credits through mangrove restoration in the Philippines. It discusses a high-level approach involving stakeholder mapping, literature review, remote sensing analysis, and certification pathways. The manuscript appears to be a conceptual or preliminary report rather than a detailed research paper, with minimal technical content, experimental validation, or novel methodologies explicitly described.",
+    "Summary": "This submission outlines a strategic implementation plan for Japanese SMEs to generate blue carbon credits via mangrove restoration in the Philippines. It combines environmental science, stakeholder analysis, and institutional pathway evaluations. The paper emphasizes certification processes, site selection, stakeholder engagement, and monitoring strategies, aiming to provide a practical roadmap for project success.",
     "Strengths": [
-        "Addresses an important and timely environmental issue\u2014blue carbon credits and mangrove restoration\u2014highlighting practical relevance.",
-        "Attempts to combine institutional analysis with scientific monitoring, which is a holistic approach.",
-        "Includes some preliminary visualizations and stakeholder mapping, indicating initial exploratory work."
+        "Addresses a timely and relevant environmental challenge with real-world impact, especially in climate mitigation through blue carbon credits.",
+        "Provides detailed, interdisciplinary analysis including remote sensing, stakeholder interviews, and scientific assessments, which can be valuable for practitioners.",
+        "Offers comprehensive practical guidance, including certification pathways, site selection, and risk management, which is useful for SMEs and policymakers."
     ],
     "Weaknesses": [
-        "The manuscript lacks depth, technical detail, and empirical validation; it reads more like an outline or proposal.",
-        "No clear methodology, data analysis, or experimental results are presented; figures are missing or placeholders.",
-        "The writing quality is superficial and unstructured, making it difficult to assess the actual scientific contribution.",
-        "Lacks discussion of novel algorithms, models, or validation metrics. There are no quantitative results supporting claims.",
-        "The paper does not demonstrate any new technical methodology or significant scientific advancement."
+        "Lacks novel AI or ML methodology; the content is primarily environmental science and policy, not AI research.",
+        "The core idea of a meta-knowledge graph is not elaborated or integrated into the paper, leading to a disconnect between the abstract and the actual content.",
+        "The paper is highly context-specific and does not contribute to generalizable AI/ML knowledge or techniques.",
+        "Limited discussion on how AI/ML models or algorithms are developed, evaluated, or innovated within this framework.",
+        "The presentation resembles a detailed project proposal or policy report rather than a scientific contribution suitable for a conference like NeurIPS or ICLR."
     ],
     "Originality": 1,
-    "Quality": 1,
-    "Clarity": 1,
+    "Quality": 2,
+    "Clarity": 2,
     "Significance": 2,
     "Questions": [
-        "Can the authors provide detailed methodology, data, and empirical validation supporting their strategic plan?",
-        "Are there specific models, algorithms, or analyses used in stakeholder mapping, remote sensing, or certification processes? If so, please detail them.",
-        "Could the authors include actual figures, results, or case studies demonstrating feasibility or preliminary outcomes?"
+        "Please clarify the intended AI or machine learning contributions of this work. How does it advance AI methodology or understanding?",
+        "Is there any AI/ML model or algorithm proposed, developed, or evaluated? If so, please specify and detail its novelty.",
+        "How does the concept of a meta-knowledge graph relate to existing AI or ML techniques? Is this a novel model, or just an application of existing graph-based approaches?",
+        "Could the authors highlight any technical or algorithmic innovations that differentiate this work from standard environmental or policy reports?"
     ],
     "Limitations": [
-        "The manuscript does not address potential limitations of the proposed strategies or scientific approaches.",
-        "Lacks discussion of societal impacts, ethical considerations, or practical challenges."
+        "The paper's focus on environmental and policy analysis limits its relevance to AI research. It does not address core AI challenges or propose novel methods.",
+        "The paper does not discuss limitations or societal impacts related to AI or ML, as it does not seem to involve any such techniques."
     ],
     "Ethical Concerns": false,
-    "Soundness": 1,
-    "Presentation": 1,
+    "Soundness": 2,
+    "Presentation": 2,
     "Contribution": 1,
-    "Overall": 2,
+    "Overall": 3,
     "Confidence": 1,
     "Decision": "Reject"
 }

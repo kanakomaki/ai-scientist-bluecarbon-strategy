@@ -41,11 +41,14 @@ def save_token_tracker(idea_dir):
 def find_pdf_path_for_review(idea_dir):
     pdf_files = [f for f in os.listdir(idea_dir) if f.endswith(".pdf")]
     reflection_pdfs = [f for f in pdf_files if "reflection" in f]
+    print(f"pdfs: {pdf_files}, Reflection PDFs: {reflection_pdfs}")
     if reflection_pdfs:
         # First check if there's a final version
-        final_pdfs = [f for f in reflection_pdfs if "final" in f.lower()]
+        #final_pdfs = [f for f in reflection_pdfs if "final" in f.lower()]
+        final_pdfs = pdf_files # arranged by KK 2025
         if final_pdfs:
             # Use the final version if available
+            sorted_by_name = sorted(final_pdfs, reverse=True)
             pdf_path = osp.join(idea_dir, final_pdfs[0])
     else:
         # if no reflection number, use the most recent one
@@ -53,7 +56,7 @@ def find_pdf_path_for_review(idea_dir):
             raise FileNotFoundError(f"No PDF files found in {idea_dir}. Please check the directory.")
         sorted_by_name = sorted(pdf_files, reverse=True)
         pdf_path = osp.join(idea_dir, sorted_by_name[0]) # newest file
-
+    print(f"PDF path for review: {pdf_path}")
     return pdf_path
 
 def merge_experiment_outputs(base_dir_list, combined_dir):
@@ -98,6 +101,7 @@ def merge_experiment_outputs(base_dir_list, combined_dir):
 def main(args):
 
     # # === Step 1: Perform Ideation ===
+    # # This step needs a preliminary idea (client's needs and project goals) file to run perform_ideation_KK.py
     # print("\n=== Step 1: Perform Ideation STARTED ===\n")
     # # Create the LLM client
     # client, client_model = create_client(args.model)
@@ -162,54 +166,54 @@ def main(args):
     # print("\n === Step 4: Perform Combine [Social & Science Experiments Results] STARTED ===\n")
     # # This step combines the results of the experiments into a single folder (original script)
     # combine_results(args.base_dir_4)
-
     # print("=== Step 4: Perform Combine [Social & Science Experiments Results] COMPLETED ===\n")
 
 
 
-    print("\n=== Step 5: Perform Writeup STARTED ===\n")
-    # This step generates a writeup of the experiments and ideas (modified script from AI-Scientist)
-    if not args.skip_writeup:
-        writeup_success = False
-        for attempt in range(args.writeup_retries):
-            print(f"Writeup attempt {attempt+1} of {args.writeup_retries}")
-            writeup_success = perform_writeup(
-                exp_outputs_base_folder=args.exp_outputs_base_folder,
-                preliminary_ideas=args.preidea_dir,
-                idea_dir=args.idea_dir,
-                no_writing=False,
-                num_cite_rounds=20,
-                small_model="meta-llama/llama-3.3-70b-instruct",
-                big_model="anthropic/claude-3.5-sonnet",
-                n_writeup_reflections=5,
-                page_limit=10,
-            )
-        if not writeup_success:
-            print("Writeup process did not complete successfully after all retries.")
-    print("\n=== Step 5: Perform Writeup COMPLETED ===\n")
-
-
-
-    # print("\n=== Step 6: Perform Review STARTED ===\n")
-    # if not args.skip_review and not args.skip_writeup:
-    #     # Perform paper review if the paper exists
-    #     pdf_path = find_pdf_path_for_review(args.exp_outputs_base_folder)
-    #     if os.path.exists(pdf_path):
-    #         print("Paper found at: ", pdf_path)
-    #         paper_content = load_paper(pdf_path)
-
-    #         client, client_model = create_client(args.model_review)
-
-    #         review_text = perform_review(paper_content, client_model, client)
-
-    #         review_img_cap_ref = perform_imgs_cap_ref_review(
-    #             client, client_model, pdf_path
+    # print("\n=== Step 5: Perform Writeup STARTED ===\n")
+    # # This step generates a writeup of the experiments and ideas (modified script from AI-Scientist)
+    # if not args.skip_writeup:
+    #     writeup_success = False
+    #     for attempt in range(args.writeup_retries):
+    #         print(f"Writeup attempt {attempt+1} of {args.writeup_retries}")
+    #         writeup_success = perform_writeup(
+    #             exp_outputs_base_folder=args.exp_outputs_base_folder,
+    #             preliminary_ideas=args.preidea_dir,
+    #             idea_dir=args.idea_dir,
+    #             no_writing=False,
+    #             num_cite_rounds=20,
+    #             small_model="meta-llama/llama-3.3-70b-instruct",
+    #             big_model="anthropic/claude-3.5-sonnet",
+    #             n_writeup_reflections=5,
+    #             page_limit=10,
     #         )
-    #         with open(osp.join(args.exp_outputs_base_folder, "review_text.txt"), "w") as f:
-    #             f.write(json.dumps(review_text, indent=4))
-    #         with open(osp.join(args.exp_outputs_base_folder, "review_img_cap_ref.json"), "w") as f:
-    #             json.dump(review_img_cap_ref, f, indent=4)
-    # print("\n=== Step 6: Perform Review COMPLETED ===\n")
+    #     if not writeup_success:
+    #         print("Writeup process did not complete successfully after all retries.")
+    # print("\n=== Step 5: Perform Writeup COMPLETED ===\n")
+
+
+
+    print("\n=== Step 6: Perform Review STARTED ===\n")
+    # This step performs a review of the generated PDF paper (modified script from AI-Scientist)
+    if not args.skip_review and not args.skip_writeup:
+        # Perform paper review if the paper exists
+        pdf_path = find_pdf_path_for_review(args.exp_outputs_base_folder)
+        if os.path.exists(pdf_path):
+            print("Paper found at: ", pdf_path)
+            paper_content = load_paper(pdf_path)
+
+            client, client_model = create_client(args.model_review)
+
+            review_text = perform_review(paper_content, client_model, client)
+
+            review_img_cap_ref = perform_imgs_cap_ref_review(
+                client, client_model, pdf_path
+            )
+            with open(osp.join(args.exp_outputs_base_folder, "review_text.txt"), "w") as f:
+                f.write(json.dumps(review_text, indent=4))
+            with open(osp.join(args.exp_outputs_base_folder, "review_img_cap_ref.json"), "w") as f:
+                json.dump(review_img_cap_ref, f, indent=4)
+    print("\n=== Step 6: Perform Review COMPLETED ===\n")
 
 
 
