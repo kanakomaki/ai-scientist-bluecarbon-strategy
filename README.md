@@ -1,26 +1,27 @@
-# **🌍 Blue Carbon Strategy - AI Scientist**
+# **🌍 Agentic AI for Navigating Blue Carbon Credit Strategy - AI Scientist**
 
 ## Overview
 This repository presents a Proof-of-Concept (PoC) AI system designed to support **blue carbon credit strategy** planning using mangrove ecosystems in the Philippines. It was developed to integrate scientific experiments, institutional reasoning, and LLM-based report writing.
 
 This PoC represents an intersection of **"AI" x "Ocean Science" x "Policy"** demonstrating how LLMs can support environmentally aligned strategic planning, appying [AI Scientist-V2](https://github.com/SakanaAI/AI-Scientist-v2)'s strong capability in scientific logic making and writing. 
 
-## Main goal setting: 
+## Main PoC setting: 
 Assist Japanese Small & Mid sized Enterprises in evaluating and initiating mangrove-based blue carbon projects by combining environmental analysis and social strategy using LLM agents.
 
 ## Key Features
 
+- Agent-like modular design with full reproducibility
+
 - LLM-guided idea generation
 
-- Not only science! Social data is combinied in the framework, e.g., stakeholder graph reasoning with NetworkX (Graph database)
+- Science experiments by choice
 
-- Mangrove mapping via deep learning
+- Not only science! Social data is analyzed in the framework
 
-- Typhoon impact mapping (R-based gust analysis)
+- LLM-generated scientific formula LaTeX report 
 
-- LLM-generated scientific formula LaTeX report (including reflection loops)
+- LLM-reviewed contents including reflection loops
 
-- Agent-like modular design with full reproducibility
 
 ### Output example
 <img src="writeup_example.png" alt="An example of the writing of this work" width="500">
@@ -33,28 +34,49 @@ Assist Japanese Small & Mid sized Enterprises in evaluating and initiating mangr
 Folder Structure
 
 ```
-.
-├── ai_scientist/                   Main AI Scientist modules (modified)
-│   ├── templates/                  Experimental templates (mangrove, typhoon, graph)
-│   ├── writeup_tmp_v2.py           Modified writeup module with VLM + reflection
-├── experiments_outputs/
-│   ├── predict_mangrove/          Mangrove image classification results
-│   ├── typhoon_analysis/          Typhoon gust duration mapping (from R)
-│   ├── graph_strategy/            Stakeholder analysis outputs (networkX)
-│   └── combined_*/                Combined summaries, figures, and  writeup folder
-├── external_models/               MangroveClassification CNN model
-├── environment.yml                Conda env for experiments (Python + R + GDAL)
-├── README.md                      This file
-└── launch_aiscientist_KK.py          Unified launcher for the entire pipeline
+├── ai_scientist/                   main AI Scientist modules (modified)
+│   ├── templates/                      experimental templates (mangrove, typhoon, graph)
+│   ├── template_social_db/             experimental template (social DB)
+│   ├── tools                           some tools needed to run ai scientist (some are my original)
+│   │   ├── base_tool.py
+│   │   ├── coresearch_scholar.py       search papers via Core Search API (in case)
+│   │   ├── pdf_to_scheme_json.py       make short summaries from PDF files
+│   │   └── semantic_scholar.py         search papers via Semantec Search API
+│   ├── llm.py
+│   ├── vlm.py
+│   ├── perform_combine_experiments.py
+│   ├── perform_experiments_KK.py
+│   ├── perform_experiments_social_db.py
+│   ├── perform_ideation_KK.py
+│   ├── perform_llm_review.py
+│   ├── perform_vlm_review.py
+│   └── perform_writeup_KK_v2.py
+│
+├── experiments_outputs/           output folder for templated experiments
+│   ├── predict_mangrove/               mangrove image classification results (deep learning)
+│   ├── typhoon_analysis/               typhoon gust duration mapping (R)
+│   ├── graph_strategy/                 stakeholder analysis outputs (networkX)
+│   └── combined_*/                         combined summaries, figures, and  writeup folder
+│
+├── experiments_outputs_social_db    social review & graphDB creation (my original)
+│   └── shortened_pdfs                  summary of reviewed PDF docs
+│
+├── external_models/               external repos used for experiments
+├── environment.yml                Conda env for experiments (Python, R, GDAL, etc)
+├── README.md                      this file
+└── launch_aiscientist_KK.py       unified launcher for the entire pipeline
 ```
 
 
 ## How to Run
 
 ### Set up conda environment
-
-- conda env create -f environment.ymlconda activate mangrove
-
+As some external model requires dependency difficult libraries with venv and pip, I applied conda.
+```python
+# something like this
+conda env create -f environment.yml
+conda activate mangrove
+```
 ### Prepare models and input data
 
 - external_models/MangroveClassification/ must contain pre-trained model or will run as untrained
