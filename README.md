@@ -67,6 +67,7 @@ Assist Japanese Small & Mid sized Enterprises in evaluating and initiating mangr
 
 ## How to Run
 <img src="schematic_flow.png" alt="Function flow" width="500">
+
 ### Set up conda environment
 As some external model requires dependency difficult libraries with venv and pip, I applied conda.
 ```python
@@ -76,8 +77,7 @@ conda activate mangrove
 ```
 ### Prepare models and input data
 
-- external_models/MangroveClassification/ must contain pre-trained model or will run as untrained
-
+- templates/predict_mangrove/models/ must contain pre-trained model or will run as untrained
 - templates/*/inputs/ must include typhoon CSV and satellite images
 
 ### Launch full PoC pipeline
